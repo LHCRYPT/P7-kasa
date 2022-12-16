@@ -2,8 +2,10 @@ import React, { component, useEffect, useState } from 'react';
 import './Home.css';
 import VignetteLocation from './components/VignetteLocation';
 import locations from "./data/logements.json";
+import bannerHome from '../../assets/img/banner.png'
+import bannerMobile from '../../assets/img/banner-mobile.png'
 
-function App() {
+function Home() {
  
 
 
@@ -25,4 +27,7 @@ function App() {
 }
 
 
-export default App;
+export default Home;
+
+
+
