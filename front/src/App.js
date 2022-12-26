@@ -8,16 +8,26 @@ import './components/Page';
 function App() {
  
     return (
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/lodging/:id" element={<Lodging />} />
-          <Route path="/about" element={<About />} />
-        
-          <Route path="*" element={<Error404 />} />
-        </Routes>
-      );
-    };
+      
+        <div className="App"> 
+                <nav>
+                 <a href="/">Home</a>
+                 <a href="/page">Page</a>
+                </nav>
+    
+                <div>
+        <Route path="/page">
+        </Page>
+        </Route>
+        <Route path="/">
+        </Home>
+        </Route>
+
+
+                </div>
+        </div>
+        );
+}
 
 
 export default App;
-
