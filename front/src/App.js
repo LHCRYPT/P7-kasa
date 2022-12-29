@@ -1,7 +1,5 @@
 import React, { component, useEffect, useState } from 'react';
 import './App.css';
-import VignetteLocation from './components/VignetteLocation';
-import locations from "./data/logements.json";
 import Home from './pages/Home';
 import Error from "./pages/Error";
 import About from "./pages/About";
@@ -15,24 +13,17 @@ function App() {
     return (
       
         <div className="App"> 
-                <nav>
-                 <a href="/">Home</a>
-                 <a href="/page">Page</a>
-                </nav>
-    
-                <div>
-        <Route path="/page">
-        </Page>
-        </Route>
-        <Route path="/">
-        </Home>
-        </Route>
-
-
-                </div>
-        </div>
-        );
+         
+         <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/lodging/:id" element={<Lodging />} />
+         <Route path="/*" element={<Error />} />
+      </Routes>
+      <Footer />
+    </div>
+  );
 }
-
 
 export default App;
