@@ -5,7 +5,9 @@ import locations from "./data/logements.json";
 import Home from './pages/Home';
 import Error from "./pages/Error";
 import About from "./pages/About";
-
+import PageLogement from "./pages/PageLogement";
+import Header from "./pages/Header";
+import Footer from "./pages/Footer";
 
 
 function App() {
