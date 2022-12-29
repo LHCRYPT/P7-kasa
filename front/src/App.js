@@ -2,8 +2,11 @@ import React, { component, useEffect, useState } from 'react';
 import './App.css';
 import VignetteLocation from './components/VignetteLocation';
 import locations from "./data/logements.json";
-import './components/Home';
-import './components/Page';
+import Home from './pages/Home';
+import Error from "./pages/Error";
+import About from "./pages/About";
+
+
 
 function App() {
  
