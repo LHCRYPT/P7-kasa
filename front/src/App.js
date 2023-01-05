@@ -1,11 +1,12 @@
 import React, { component, useEffect, useState } from 'react';
+import { Routes, Route } from "react-router-dom";
 import './App.css';
-import Home from './pages/Home';
-import Error from "./pages/Error";
-import About from "./pages/About";
-import PageLogement from "./pages/PageLogement";
-import Header from "./pages/Header";
-import Footer from "./pages/Footer";
+import Home from './components/pages/Home';
+import Error from "./components/pages/Error";
+import About from "./components/pages/About";
+/*import PageLogement from "./components/pages/PageLogement";*/
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -14,14 +15,14 @@ function App() {
       
         <div className="App"> 
          
-         <Header />
+         
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
-        <Route path="/PageLogement/:id" element={<PageLogement/>} />
-         <Route path="/*" element={<Error />} />
+       
+         
       </Routes>
-      <Footer />
+      
     </div>
   );
 }
