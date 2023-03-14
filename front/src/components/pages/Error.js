@@ -18,4 +18,3 @@ function Error() {
 
 /* <Route path="*" element={<Notfound />} />
 ou return {lodging ? <div> ..... </div> : <NotFound />}*/
-
