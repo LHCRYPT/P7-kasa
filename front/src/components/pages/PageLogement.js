@@ -4,7 +4,6 @@ import PageLogement from "../data/logements.json";
 /*import './components/pages/logements.css';    faire css*/
 
 /*function PageLogement() {
-
     return (
        
         );
