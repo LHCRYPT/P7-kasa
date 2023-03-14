@@ -1,5 +1,5 @@
 import React, { component, useEffect, useState } from 'react';
-import Logo from "../public/logo-kasa.svg";
+import Logo from "../logo-kasa.svg";
 /*import "../.css"; mettre le lien vers le css*/
 
 function Footer() {

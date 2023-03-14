@@ -1,3 +1,4 @@
+/*import React from "react";*/
 import React, { component, useEffect, useState } from 'react';
 /*import './components/Banner.css';    faire css*/
 

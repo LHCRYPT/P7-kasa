@@ -7,23 +7,23 @@ import About from "./components/pages/About";
 /*import PageLogement from "./components/pages/PageLogement";*/
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import {createBrowserRouter,RouterProvider} from 'react-router-dom';
 
-
+const router = createBrowserRouter([
+    {path:'/' ,element:<Home />},
+    {path:'/about' ,element:<About />}
+]);
 function App() {
  
     return (
+    <RouterProvider router={router}/>
+    // <div className="App"> 
+    //   <Routes>
+    //     <Route path="/" element={<Home />} />
+    //     <Route path="/About" element={<About />} />
+    //   </Routes>
       
-        <div className="App"> 
-         
-         
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-       
-         
-      </Routes>
-      
-    </div>
+    // </div>
   );
 }
 
