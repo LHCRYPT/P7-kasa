@@ -3,91 +3,45 @@ import React, { component, useEffect, useState } from 'react';
 import Header from "../Header";
 import Banner from "../Banner";
 import Card from "../Card";
-
-/*import PageLogement from "./components/pages/PageLogement";*/
-
+import logements from "../../data/logements.json";
 import styles from "./Home.css";
 
 
 
 
+
 function Home() {
-    const logement = [
-        {
-            titre:'abc',
-            id:1
-        },
-        {
-            titre:'bcd',
-            id:2
-        }
-    ]
+    /*console.log(logements);*/
+    // const logement = [
+    //     {
+    //         titre:'abc',
+    //         id:1
+    //     },
+    //     {
+    //         titre:'bcd',
+    //         id:2
+    //     }
+    // ]
     return (
     <>
     <Header/>
     <Banner/>
-    <h1>
+    {/* <h1>
         Home 
-    </h1>
+    </h1> */}
     {/* mettre les div avec class = */ }
 
  
-
-        <div className='tousAppartements' >   
-            <div className='appartements'>
-                <div>
-							<div class= "titre">
-								appartement
-							</div>			
-
-                </div>
-
-				<div>
-							<div class= "titre">
-								appartement
-							</div>
-						
-                </div>	
-
-				<div>
-                        <div class= "titre">
-                        appartement
-                        </div>
-                
-                </div>	
-            </div>
-
-            <div className='appartements'>
-                <div>
-							<div class= "titre">
-								appartement
-							</div>
-					
-
-                </div>
-
-				<div>
-							<div class= "titre">
-								appartement
-							</div>
-						
-						
-                </div>	
-
-				<div>
-                        <div class= "titre">
-                        appartement
-                        </div>
-                
-                     
-                </div>	
-            </div>
-        </div>    
-
+            
     {/* <Card titre="xyz"></Card> */}
+    <div className='tous-appartements' >  
     {
-        logement.map(loc=><Card titre={loc.titre}></Card>) /* pour déplier le tableau logement*/
+        logements.map(loc=><Card 
+        key={loc.id}
+        image={loc.cover}
+        title={loc.title}></Card>) /* pour déplier le tableau logement*/
     }
+     </div>
     </>
     );
   }

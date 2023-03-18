@@ -1,3 +1,22 @@
-.card{
-    text-color : tomato;
+.img-card{
+
+    width:340px;
+   border-radius: 10px;
+   
+}
+
+p {
+     color: #FFFFFF; 
+     margin-top: -50px;
+     margin-left: 10px; /* concerne les marges exterieures  */
+     font-size: 18px;
+     padding-left: 10px;
+     padding-right: 10px;
+     font-weight: bold;
+     text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+     width: 340px;
+}
+div {
+    padding: 50px;
+    
 }

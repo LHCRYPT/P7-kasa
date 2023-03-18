@@ -1,13 +1,8 @@
-.tousAppartements
+.tous-appartements
 {
-	display: flex;
-	flex-direction: column;
+	display :flex ;
+    flex-wrap: wrap ;
+
+   
 }
 
-.appartements
-{
-	display: flex;
-	flex-direction: column-reverse !important;/*afin que les plus populaires apparaissent avant hebergement à Marseille sur mobile*/
-    color: aqua;
-    /* color: #FFFFFF; */
-}
