@@ -4,7 +4,10 @@ import React, { component, useEffect, useState } from 'react';
 
 function Banner() { //mettre la bannière accueil
     return (
-
+     /* <div>
+     
+<img src="src/imageBanner.png" alt="imageBanner" />
+</div>*/
   <div className="texteBanner"> <p> Chez vous, partout et ailleurs</p> </div>
         );
 }
