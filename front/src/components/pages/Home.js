@@ -28,6 +28,16 @@ function Home() {
         Home 
     </h1>
     {/* mettre les div avec class = */ }
+    <div>
+							<div class= "apartement">
+								apartement
+							</div>
+						</div>
+						<br />
+						<span class="ville">nom de la ville </span>
+						
+						<br />
+
     {/* <Card titre="xyz"></Card> */}
     {
         logement.map(loc=><Card titre={loc.titre}></Card>) /* pour déplier le tableau logement*/

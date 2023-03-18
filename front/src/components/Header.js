@@ -8,7 +8,7 @@ function Header() {
     return (
  <header className="header">
      <img className="logoHeader" src={Logo} alt="Logo Kasa" ></img>
-     {/* <img className="logoHeader" src="logo-kasa.svg" alt="Logo Kasa" ></img> */}
+  
      
      <nav className="headerLink">
         <div>
