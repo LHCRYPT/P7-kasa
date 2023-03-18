@@ -28,15 +28,59 @@ function Home() {
         Home 
     </h1>
     {/* mettre les div avec class = */ }
-    <div>
-							<div class= "apartement">
+
+ 
+
+        <div className='tousAppartements' >   
+            <div className='3appartements'>
+                <div>
+							<div class= "titre">
+								apartement
+							</div>			
+
+                </div>
+
+				<div>
+							<div class= "titre">
 								apartement
 							</div>
-						</div>
-						<br />
-						<span class="ville">nom de la ville </span>
 						
-						<br />
+                </div>	
+
+				<div>
+                        <div class= "titre">
+                        apartement
+                        </div>
+                
+                </div>	
+            </div>
+
+            <div className='3appartements'>
+                <div>
+							<div class= "titre">
+								apartement
+							</div>
+					
+
+                </div>
+
+				<div>
+							<div class= "titre">
+								apartement
+							</div>
+						
+						
+                </div>	
+
+				<div>
+                        <div class= "titre">
+                        apartement
+                        </div>
+                
+                     
+                </div>	
+            </div>
+        </div>    
 
     {/* <Card titre="xyz"></Card> */}
     {
