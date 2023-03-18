@@ -6,6 +6,8 @@ import Card from "../Card";
 
 /*import PageLogement from "./components/pages/PageLogement";*/
 
+import styles from "./Home.css";
+
 
 
 
@@ -32,33 +34,33 @@ function Home() {
  
 
         <div className='tousAppartements' >   
-            <div className='3appartements'>
+            <div className='appartements'>
                 <div>
 							<div class= "titre">
-								apartement
+								appartement
 							</div>			
 
                 </div>
 
 				<div>
 							<div class= "titre">
-								apartement
+								appartement
 							</div>
 						
                 </div>	
 
 				<div>
                         <div class= "titre">
-                        apartement
+                        appartement
                         </div>
                 
                 </div>	
             </div>
 
-            <div className='3appartements'>
+            <div className='appartements'>
                 <div>
 							<div class= "titre">
-								apartement
+								appartement
 							</div>
 					
 
@@ -66,7 +68,7 @@ function Home() {
 
 				<div>
 							<div class= "titre">
-								apartement
+								appartement
 							</div>
 						
 						
@@ -74,7 +76,7 @@ function Home() {
 
 				<div>
                         <div class= "titre">
-                        apartement
+                        appartement
                         </div>
                 
                      
