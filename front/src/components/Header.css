@@ -1,0 +1,16 @@
+/* .logoHeader { 
+position: absolute;
+left: 0%;
+right: 95.62%;
+top: 0%;
+bottom: 8.45%;
+}  */
+
+.headerLink{ /*mot Accueil et A propos */
+
+/*weight:136px;*/
+size:24px;
+/*height:34.22px;*/
+align:Right;
+color:#FF6060;
+}
