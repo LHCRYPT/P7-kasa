@@ -11,7 +11,7 @@ import imageBannerBleue from "../../Bouddha.png";
         return (
             <> 
     
-            <img className="bouddha" src={imageBannerBleue} alt="photo d'une salle à manger" />
+            <img className="Bouddha" src={imageBouddha} alt="photo d'une salle à manger" />
      <header className="header">
          <img className="logoHeader" src={Logo} alt="Logo Kasa" ></img>
       
