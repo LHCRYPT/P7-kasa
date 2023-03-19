@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import Logo from "../../logo-kasa.svg";
 import Header from "../Header";
+import styles from "./Error.css";
 /*import './components/pages/Error.css';    faire css*/
 
 function Error() {
