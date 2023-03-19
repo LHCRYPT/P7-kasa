@@ -6,16 +6,18 @@ import styles from './Footer.css';
 
 function Footer() {
     return (
-            <footer className="footer">
+        
+            <div className="lfooter">
       <img className="logoFooter" src={Logo} alt="Logo Kasa" />
-       <p className="rights"> © 2020 Kasa. All rights reserved</p>
+      <p className="rights"> © 2020 Kasa. All rights reserved</p></div>
       
-    </footer>
-
-        );
+    
+      );
     }
     
     export default Footer;
+
+
 
     
     
