@@ -1,9 +1,12 @@
 import React, { component, useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
+
+import Header from "../Header";
 /*import './components/pages/Error.css';    faire css*/
 
 function Error() {
     return (
+      
       <div className="erreur">
         <h1 className="nombre">404</h1>
         <p className="texte"> Oups ! La page que vous demandez n'existe pas. </p>

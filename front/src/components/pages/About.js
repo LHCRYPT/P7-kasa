@@ -1,14 +1,15 @@
 import React, { component, useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
-import Header from "../Header";
 
-
-import Banner from "../Banner";
 import Logo from "../../logo-kasa.svg";
-
+import imageBannerBleue from "../../imageBannerBleue.jpg";
+import styles from "./About.css";
 
 function About() {
     return (
+        <> 
+
+        <img className="imageBannerBleue" src={imageBannerBleue} alt="rivière entre 2 montagnes" />
  <header className="header">
      <img className="logoHeader" src={Logo} alt="Logo Kasa" ></img>
   
@@ -22,7 +23,7 @@ function About() {
         </div>
       </nav>
     </header>
-        );
+    </>  );
     }
     
     export default About;
