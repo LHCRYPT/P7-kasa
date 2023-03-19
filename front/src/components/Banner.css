@@ -11,20 +11,20 @@
     
     }
 
-
+  
 
 .Chez{   /* Chez vous, partout et ailleurs */
-    font-size:20px; 
-   /*font-family: 'Montserrat';*/
+    width: 100%;
+    font-size:48px; 
+   font-family: 'Montserrat';
 font-style: normal;
 /*font-weight: bold; */
-
-position: absolute;
-left: 25.9%;
-right: 25.14%;
+position: absolute; /* pour que la phrase soit positionnée au milieu de l'image*/
+left: 24%;
+/*right: 25.14%;*/
 top: 50%;
 bottom: 69.04%;
-line-height: 142.6%; /*indique la hauteur minimale des lignes au sein de l'élément */
+/*line-height: 142.6%; indique la hauteur minimale des lignes au sein de l'élément */
 display: flex;
 align-items: flex-end;
 
