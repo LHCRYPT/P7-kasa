@@ -2,7 +2,7 @@
     position: absolute;
 left: 32.15%;
 right: 32.22%;
-top: 64.11%;
+top: 370%;
 bottom: 13.88%;
 
 font-family: 'Montserrat';
@@ -10,11 +10,20 @@ font-style: normal;
 font-weight: 500;
 font-size: 24px;
 line-height: 142.6%;
-
-/* or 34px */
 display: flex;
 align-items: flex-end;
 text-align: center;
     
     color : red;
+    /*color: #FFFFFF;*/
+    /*background: blue;*/
 } 
+
+footer{
+    position: absolute;
+left: 28.63%;
+right: 49.47%;
+top: 21.53%;
+bottom: 0%;
+ background: blue;
+}
