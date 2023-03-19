@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import Logo from "../../logo-kasa.svg";
 import imageBannerBleue from "../../imageBannerBleue.jpg";
+import footer from "../Footer";
 import styles from "./About.css";
 
 function About() {
