@@ -4,7 +4,8 @@ import Header from "../Header";
 import Banner from "../Banner";
 import Card from "../Card";
 import logements from "../../data/logements.json";
-import footer from "../Footer";
+
+/*import Logo from "../logoFooter.png";*/
 import styles from "./Home.css";
 
 

@@ -22,9 +22,9 @@
     position: absolute; /* pour que la phrase soit positionnée au milieu de l'image*/
     left: 24%;
     /*right: 25.14%;*/
-    top: 50%;
+    top: 45%;
     bottom: 69.04%;
-    /*line-height: 142.6%; indique la hauteur minimale des lignes au sein de l'élément */
+    /*line-height: 142.6%; indique la hauteur minimale des lignes au sein de l'élément*/
     display: flex;
     align-items: flex-end;
 
