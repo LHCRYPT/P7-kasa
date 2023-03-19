@@ -1,8 +1,8 @@
 import React, { component, useEffect, useState } from 'react';
 
 import Logo from "../logoFooter.png";
+import styles from './Footer.css';
 
-/*import "../.css"; mettre le lien vers le css*/
 
 function Footer() {
     return (
