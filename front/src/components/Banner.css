@@ -1,0 +1,31 @@
+.imageBanner{
+    position: absolute;
+    width:1380px;
+    height:223px;
+    top:171px;
+    left:100px;
+    /*opacity:30%;*/
+    mix-blend-mode:Darken; /* propriété spécifie comment le contenu d'un élément doit se fondre avec son arrière-plan*/
+    background: #000000;  
+    border-radius: 25px;
+    
+    }
+
+
+
+.Chez{   /* Chez vous, partout et ailleurs */
+    font-size:20px; 
+   /*font-family: 'Montserrat';*/
+font-style: normal;
+/*font-weight: bold; */
+
+position: absolute;
+left: 25.9%;
+right: 25.14%;
+top: 50%;
+bottom: 69.04%;
+line-height: 142.6%; /*indique la hauteur minimale des lignes au sein de l'élément */
+display: flex;
+align-items: flex-end;
+
+}
