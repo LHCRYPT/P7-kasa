@@ -13,10 +13,10 @@ function Header() {
      
      <nav className="headerLink">
         <div>
-          <Link to={`/`}>Accueil</Link>
+          <Link to={`/`}><p className="Accueil">Accueil</p></Link>
         </div>
         <div>
-          <Link to={`/About`}>A Propos</Link>
+          <Link to={`/About`}><p className="APropos">A Propos</p></Link>
         </div>
       </nav>
     </header>

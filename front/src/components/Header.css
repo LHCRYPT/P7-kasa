@@ -6,11 +6,48 @@ top: 0%;
 bottom: 8.45%;
 }  */
 
-.headerLink{ /*mot Accueil et A propos */
+.Accueil{ /*mot Accueil */
 
-/*weight:136px;*/
-/*size:24px;*/
-/*height:34.22px;*/
-/*align:Right;*/
-color:#FF6060;
+    position: absolute;
+    left: 64%;
+    right: 13.95%;
+    top: 18%;
+    /*bottom: 25%;*/
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    /*font-weight: 500;*/
+    font-size: 24px;
+    /*line-height: 142.6%;*/
+    
+    /* or 34px */
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    text-decoration-line: underline;
+    
+    color: #FF6060;
+}
+
+.APropos{ /*mot Accueil */
+
+    position: absolute;
+    left: 70%;
+    right: 13.95%;
+    top: 18%;
+    /*bottom: 55%;*/
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    /*font-weight: 500;*/
+    font-size: 24px;
+    /*line-height: 142.6%;*/
+    
+    /* or 34px */
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    text-decoration-line: underline;
+    
+    color: #FF6060;
 }
