@@ -5,7 +5,7 @@ import Banner from "../Banner";
 import Card from "../Card";
 import logements from "../../data/logements.json";
 
-/*import Logo from "../logoFooter.png";*/
+import Footer from "../Footer";
 import styles from "./Home.css";
 
 
@@ -28,6 +28,7 @@ function Home() {
     <>
     <Header/>
     <Banner/>
+    <Footer/>
     {/* <h1>
         Home 
     </h1> */}

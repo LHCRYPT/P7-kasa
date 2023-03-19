@@ -2,7 +2,7 @@
 
     width:340px;
    border-radius: 10px;
-   
+   /*object-fit: cover; l'image sera découpée pour s'adapter*/
 }
 
 p {
