@@ -1,42 +1,43 @@
+ .logoFooter{
+   position: absolute;
+/* left: 128.63%; */
+/*right: 49.47%;*/
+/*top: 380%;*/
+ bottom: 50%; 
+
+}
+  
  .rights{
-  /*  position: absolute;*/
-left: 32.15%;
-right: 32.22%;
-top: 490%;
-/*bottom: 13.88%;*/
+   position: absolute;
+left: 42.15%;
+/*right: 32.22%;*/
+/*top: 690%;*/
+bottom: 0%;
 
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
-line-height: 142.6%;
+/*line-height: 142.6%;*/
 display: flex;
 align-items: flex-end;
-text-align: center;
+/*text-align: center;*/
    
     color: #FFFFFF;
-    /*background: blue;*/
+   
 } 
 
-.logoFooter{
-   /*position: absolute;*/
-/* left: 128.63%; */
-/*right: 49.47%;*/
-/*top: 180%;
- bottom: 0%; */
-
-}
 .lfooter{ /* cadre englobant logo et la phrase rights*/
     position: absolute;
      width: 80%; 
  /* left: 28.63%;*/
  /*right: 49.47%;*/
- /* top: 180%;
- bottom: 0%;  */
+ top: 440%;
+ bottom: 0%;  
   background: black;
   /* left: 32.15%;
   right: 32.22%; */
-  top: 340%;
+  
   /*bottom: 13.88%;*/
   text-align: center;
  }
