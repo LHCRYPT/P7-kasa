@@ -1,10 +1,10 @@
 import React, { component, useEffect, useState } from 'react';
 import { Routes, Route } from "react-router-dom";
 import PageLogement from "../data/logements.json";
-/*import './components/pages/logements.css';    faire css*/
 
+import styles from "./PageLogement.css";
 import Logo from "../../logo-kasa.svg";
-import imageBannerBleue from "../../Bouddha.png";
+import imageBouddha from "../../Bouddha.png";
 
 
       function PageLogement() {
