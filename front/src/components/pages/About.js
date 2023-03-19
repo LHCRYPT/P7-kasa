@@ -3,16 +3,28 @@ import { Link } from "react-router-dom";
 import Header from "../Header";
 
 
+import Banner from "../Banner";
+import Logo from "../../logo-kasa.svg";
+
 
 function About() {
-    
     return (
-    <h1>
-        About
-    </h1>
-    );
-  }
+ <header className="header">
+     <img className="logoHeader" src={Logo} alt="Logo Kasa" ></img>
   
-  export default About;
+     
+     <nav className="headerLink">
+        <div>
+          <Link to={`/`}><p className="Accueil">Accueil</p></Link>
+        </div>
+        <div>
+          <Link to={`/About`}><p className="APropos">A Propos</p></Link>
+        </div>
+      </nav>
+    </header>
+        );
+    }
+    
+    export default About;
 
   
