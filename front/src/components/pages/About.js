@@ -23,7 +23,12 @@ function About() {
           <Link to={`/About`}><p className="APropos">A Propos</p></Link>
         </div>
       </nav>
+    
     </header>
+    {/* <p className="Fiabilité"> Fiabilité</p>
+    <p className="Fiabilité"> Fiabilité</p>
+    <p className="Fiabilité"> Fiabilité</p>
+    <p className="Fiabilité"> Fiabilité</p> */}
     </>  );
     }
     
