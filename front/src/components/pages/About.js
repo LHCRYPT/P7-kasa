@@ -26,10 +26,10 @@ function About() {
     
     </header>
     <Footer/>
-    {/* <p className="Fiabilité"> Fiabilité</p>
+     <p className="Fiabilité"> Fiabilité</p>
     <p className="Fiabilité"> Fiabilité</p>
     <p className="Fiabilité"> Fiabilité</p>
-    <p className="Fiabilité"> Fiabilité</p> */}
+    <p className="Fiabilité"> Fiabilité</p> 
     </>  );
     }
     

@@ -1,9 +1,13 @@
  .logoFooter{
-   position: absolute;
+    width: 80px;
+    position: absolute; 
 /* left: 128.63%; */
 /*right: 49.47%;*/
 /*top: 380%;*/
  bottom: 50%; 
+/* height:36.11px; */
+bottom:62px; 
+/* left:127px; */
 
 }
   
@@ -12,7 +16,7 @@
 left: 42.15%;
 /*right: 32.22%;*/
 /*top: 690%;*/
-bottom: 0%;
+bottom: -5px;
 
 font-family: 'Montserrat';
 font-style: normal;
@@ -30,9 +34,10 @@ align-items: flex-end;
 .lfooter{ /* cadre englobant logo et la phrase rights*/
     position: absolute;
      width: 80%; 
+     height: 3%;
  /* left: 28.63%;*/
  /*right: 49.47%;*/
- top: 440%;
+ top: 480%;
  bottom: 0%;  
   background: black;
   /* left: 32.15%;
