@@ -41,6 +41,7 @@ function Home() {
     {
         logements.map(loc=><Card 
         key={loc.id}
+        id={loc.id}
         image={loc.cover}
         title={loc.title}></Card>) /* pour déplier le tableau logement*/
     }

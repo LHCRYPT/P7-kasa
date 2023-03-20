@@ -1,18 +1,20 @@
 import React, { component, useEffect, useState } from 'react';
-import { Routes, Route } from "react-router-dom";
-import PageLogement from "../data/logements.json";
-
+// import { Routes, Route } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import styles from "./PageLogement.css";
 import Logo from "../../logo-kasa.svg";
 import imageBouddha from "../../Bouddha.png";
-
+import { useLocation } from "react-router-dom";
+import Header from "../Header";
 
       function PageLogement() {
+        // const id = useLocation().state["id"];
+        // console.log(id);
         return (
             <> 
-    
-            <img className="Bouddha" src={imageBouddha} alt="photo d'une salle à manger" />
-     <header className="header">
+    <Header /> 
+            <img className="Bouddha" src={imageBouddha} alt="salle à manger" />
+     {/* <header className="header">
          <img className="logoHeader" src={Logo} alt="Logo Kasa" ></img>
       
          
@@ -24,7 +26,7 @@ import imageBouddha from "../../Bouddha.png";
               <Link to={`/About`}><p className="APropos">A Propos</p></Link>
             </div>
           </nav>
-        </header>
+        </header> */}
         </>  );
         }
         
