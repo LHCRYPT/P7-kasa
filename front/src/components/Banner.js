@@ -10,7 +10,7 @@ function Banner() { //mettre la bannière accueil
 
 <img className="imageBanner" src={imageBanner} alt="montagne surplombant la mer" />
 
-  <div className="texteBanner"> <p className="Chez"> Chez vous, partout et ailleurs</p> </div>
+  <p className="Chez"> Chez vous, partout et ailleurs</p> 
        </>  );
 }
 
