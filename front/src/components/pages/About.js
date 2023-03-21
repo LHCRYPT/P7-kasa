@@ -25,14 +25,16 @@ function About() {
       </nav>
     
     </header>
-    <Footer/>
      <p className="Fiabilité"> Fiabilité</p>
-    <p className="Fiabilité"> Fiabilité</p>
-    <p className="Fiabilité"> Fiabilité</p>
-    <p className="Fiabilité"> Fiabilité</p> 
+    <p className="Respect"> Respect</p>
+    <p className="Service"> Service</p>
+    <p className="Sécurité"> Sécurité</p> 
+    <Footer/>
+   
     </>  );
     }
     
     export default About;
+
 
   
