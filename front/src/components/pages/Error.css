@@ -44,3 +44,23 @@
     
     color: #FF6060;
 }
+
+.nombre{ /* 404 */
+    font:Montserrat;
+    weight:700;
+    size:288px;
+    line :height410.69px;
+    align:Center;
+    color: #FF6060;
+}
+
+.texte{
+    font:Montserrat;
+    weight:500;
+    size:36px;
+    /* line height : 51.34px; */
+    align: center;
+    color: #FF6060;  
+    top:606px;
+left:295px ;
+}
