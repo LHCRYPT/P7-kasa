@@ -26,6 +26,7 @@ function About() {
     
     </header>
      <p className="Fiabilité"> Fiabilité</p>
+     <p className="annonces">Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes.</p>
     <p className="Respect"> Respect</p>
     <p className="Service"> Service</p>
     <p className="Sécurité"> Sécurité</p> 

@@ -26,8 +26,7 @@ font-size: 24px;
 display: flex;
 align-items: flex-end;
 /*text-align: center;*/
-   
-    color: #FFFFFF;
+color: #FFFFFF;
    
 } 
 
@@ -37,7 +36,7 @@ align-items: flex-end;
      height: 3%;
  /* left: 28.63%;*/
  /*right: 49.47%;*/
- top: 435%;
+ top: 425%;
  bottom: 0%;  
   background: black;
   text-align: center;
