@@ -84,6 +84,18 @@ border-radius: 5px;
 
 }
 
+.vector { 
+
+position: absolute;
+left: 96.76%;
+right: 1.86%;
+top: 8.74%;
+bottom: 78.3%;
+background: #FFFFFF;
+transform: rotate(90deg);
+}
+
+
 .annonces { /* texte sous fiabilité */
     position: absolute;
     left: 1.76%;
