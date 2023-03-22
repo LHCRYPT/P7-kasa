@@ -80,6 +80,7 @@ align-items: center;
  color: #FFFFFF; 
  background: #FF6060;
 border-radius: 5px;
+/*background-size: 50% auto;*/  /* 1ère valeur : la largeur, 2nd valeur : la hauteur */
 
 }
 
