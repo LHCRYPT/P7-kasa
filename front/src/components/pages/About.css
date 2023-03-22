@@ -63,7 +63,7 @@
 position: absolute;
 left: 1.77%;
 right: 88.75%;
-top: 11.93%;
+top: 20%;
 bottom: 15.72%;
 
 font-family: 'Montserrat';
@@ -77,4 +77,67 @@ display: flex;
 align-items: center;
 /* color: #000000; */
  color: #FFFFFF; 
+}
+
+.Respect {
+    
+position: absolute;
+left: 1.77%;
+right: 88.46%;
+top: 58%;
+bottom: 78.4%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 142.6%;
+
+/* or 34px */
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.Service{
+    position: absolute;
+left: 1.77%;
+right: 89.53%;
+top: 63%;
+bottom: 78.4%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 142.6%;
+
+/* or 34px */
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.Sécurité {
+    position: absolute;
+left: 1.77%;
+right: 88.36%;
+top: 68%;
+bottom: 78.4%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 142.6%;
+
+/* or 34px */
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
 }
