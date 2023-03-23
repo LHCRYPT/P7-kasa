@@ -13,7 +13,7 @@ import Header from "../Header";
         return (
             <> 
     <Header /> 
-            <img className="Bouddha" src={imageBouddha} alt="salle à manger" />
+            <img className="Bouddha" src={imageBouddha} alt="photo d'une salle à manger" />
      {/* <header className="header">
          <img className="logoHeader" src={Logo} alt="Logo Kasa" ></img>
       
