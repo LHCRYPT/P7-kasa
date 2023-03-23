@@ -15,3 +15,4 @@ function Collapse(data) {
 export default Collapse;
 
 /*  <i className="fa-solid fa-chevron-up"></i>*/
+/*  <i className="fa-solid fa-chevron-down"></i> */
