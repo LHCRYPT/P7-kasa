@@ -1,11 +1,19 @@
 import React, { component, useEffect, useState } from 'react';
-// import { Routes, Route } from "react-router-dom";
+ import { Routes, Route } from "react-router-dom"
 // import { Link } from "react-router-dom";
 import styles from "./PageLogement.css";
 import Logo from "../../logo-kasa.svg";
 import imageBouddha from "../../Bouddha.png";
 import { useLocation } from "react-router-dom";
 import Header from "../Header";
+
+// import VectorHaut from "../../VectorHaut.png";
+// import VectorBas from "../../VectorBas.png";
+import Footer from "../Footer";
+import Error from "./Error";
+
+// import Collapse from "../Collapse";
+
 
       function PageLogement() {
         // const id = useLocation().state["id"];

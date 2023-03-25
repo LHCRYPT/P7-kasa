@@ -5,8 +5,8 @@ import Logo from "../../logo-kasa.svg";
 import imageBannerBleue from "../../imageBannerBleue.jpg";
 import Footer from "../Footer";
 import styles from "./About.css";
-import VectorHaut from "../../VectorHaut.png";
-import VectorBas from "../../VectorBas.png";
+// import VectorHaut from "../../VectorHaut.png";
+// import VectorBas from "../../VectorBas.png";
 // import Collapse from "../Collapse";
 
 function About() {

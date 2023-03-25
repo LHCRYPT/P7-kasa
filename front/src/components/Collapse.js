@@ -1,6 +1,6 @@
 import React, { component, useEffect, useState } from 'react';
-import VectorHaut from "../../VectorHaut.png";
-import VectorBas from "../../VectorBas.png";
+import VectorHaut from "../VectorHaut.png";
+import VectorBas from "../VectorBas.png";
 import styles from "./Collapse.css";
 
 /*ici ce trouve l'encadrement de fiabilité et l'icône flèche*/
@@ -13,7 +13,6 @@ import styles from "./Collapse.css";
 //   );
 // }
 
-
 const Collapse = (props) => {
     // Setting collapse not open
     const [open, setOpen] = useState(false);
@@ -25,22 +24,22 @@ const Collapse = (props) => {
   
     return (
       <div className="collapse-element">
-        {/* On click, toggle collapse */}
-        <div className="button_container" onClick={toggle}>
+        
+        <div className="button_container" onClick={toggle}> /* toggle collapse Cliquez sur les boutons pour afficher/masquer un autre élément via les changements de classe*/
           <div className="collapse_button">
             {" "}
             <p>{props.label}</p>{" "}
           </div>
-          {/* si flêche vers le haut */}
+          
           {open ? (
-            <i className="fa-solid fa-chevron-up"></i>
+            <i className="fa-solid fa-chevron-up"></i> /* si flêche vers le haut */
           ) : (
-            // si flêche vers le bas
-            <i className="fa-solid fa-chevron-down"></i>
+            
+            <i className="fa-solid fa-chevron-down"></i>// si flêche vers le bas
           )}
         </div>
-        {/* si flêche vers le haut */}
-        {open && <div className="collapse-element"> {props.content} </div>}
+       
+        {open && <div className="collapse-element"> {props.content} </div>} /* si flêche vers le haut */
       </div>
     );
   };
