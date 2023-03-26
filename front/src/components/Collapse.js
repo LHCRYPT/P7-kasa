@@ -1,6 +1,6 @@
 import React, { component, useEffect, useState } from 'react'; /* importation de Hook useState depuis React. Il me permet d’utiliser un état local dans une fonction composant*/
-import isOpen from "../isOpen.png";
-import setIsOpen from "../setIsOpen.png";
+import flecheHaut from "../fleche-haut.png";
+import flecheBas from "../fleche-bas.png";
 import styles from "./Collapse.css";
 
 /*ici ce trouve l'encadrement de fiabilité et l'icône flèche*/
@@ -25,21 +25,21 @@ const Collapse = (props) => {
     return (
       <div className="collapse-element">
         
-        <div className="button_container" onClick={toggle}> /* toggle collapse Cliquez sur les boutons pour afficher/masquer un autre élément via les changements de classe*/
+        <div className="button_container" onClick={toggle}> {/* toggle collapse Cliquez sur les boutons pour afficher/masquer un autre élément via les changements de classe */}
           <div className="collapse_button">
             {" "}
-            <p>{props.label}</p>{" "}
+            <p>{props.titre}</p>{" "}
           </div>
           
-          {open ? (
-            <i className="fa-solid fa-chevron-up"></i> /* si flêche vers le haut */
-          ) : (
+          {isOpen ? ( /* if open ne pas mettre if c'est if ternaire*/
+            <img src={flecheHaut } /> /* si flêche vers le haut */
+          ) : ( /* else  */
             
-            <i className="fa-solid fa-chevron-down"></i>// si flêche vers le bas
+            <img src={flecheBas} />// si flêche vers le bas
           )}
         </div>
        
-        {open && <div className="collapse-element"> {props.content} </div>} /* si flêche vers le haut */
+        {isOpen && <div className="collapse-element"> {props.text} </div>} {/* si flêche vers le haut, && = if ternaire avec condition */}
       </div>
     );
   };
