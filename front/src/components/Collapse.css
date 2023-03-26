@@ -50,14 +50,22 @@ height:47px;
     
     .vector { 
     
-         /* position: absolute; */
-        left: 8.75%;
-        right: 42.63%;
+          /* position: absolute;  */
+        /* left: 58.75%;
+        right: 2.63%; */
         /* top: 5.67%; */
         /* bottom: -8.17%;  */
         
         color: #FFFFFF;
-        /* transform: rotate(-90deg); */
+         /* transform: rotate(-45deg);  */
+         background-color: black; 
+
+        /* display: flex;
+    align-items: flex-end;
+    text-align: right; */
+    /* width:14.06px; */
+height:13.86px;
+
     }
     
     
