@@ -1,4 +1,4 @@
-import React, { component, useEffect, useState } from 'react';
+import React, { component, useEffect, useState } from 'react'; /* importation de Hook useState depuis React. Il me permet d’utiliser un état local dans une fonction composant*/
 import VectorHaut from "../VectorHaut.png";
 import VectorBas from "../VectorBas.png";
 import styles from "./Collapse.css";
@@ -14,10 +14,10 @@ import styles from "./Collapse.css";
 // }
 
 const Collapse = (props) => {
-    // Setting collapse not open
-    const [open, setOpen] = useState(false);
+    //collapse fermé
+    const [open, setOpen] = useState(false); /*déclaration d'une nouvelle variable d’état en appelant le Hook useState,renvoie une paire de valeurs que nous pouvons nommer à notre guise, useState déclare une « variable d’état » (appelé open), Le second élément renvoyé est une fonction. Elle nous permet de modifier la variable open, appelée setOpen.*/
   
-    // Setting the opposite state of the collapse (toggle)
+    //  collapse ouvert (toggle)
     const toggle = () => {
       setOpen(!open);
     };

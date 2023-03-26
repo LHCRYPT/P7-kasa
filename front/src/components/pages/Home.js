@@ -40,8 +40,8 @@ function Home() {
     <div className='tous-appartements' >  
     {
         logements.map(loc=><Card 
-        key={loc.id}
-        id={loc.id}
+        key={loc.id} /* Les clés aident React à identifier quels éléments d’une liste ont changé, ont été ajoutés ou supprimés. on utilise l’ID de notre donnée comme clé car identifie de façon unique un élément d’une liste  */
+        id={loc.id} 
         image={loc.cover}
         title={loc.title}></Card>) /* pour déplier le tableau logement*/
     }
