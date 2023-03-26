@@ -32,10 +32,10 @@ const Collapse = (props) => {
           </div>
           
           {isOpen ? ( /* if open ne pas mettre if c'est if ternaire*/
-            <img src={flecheHaut } /> /* si flêche vers le haut */
+            <img class="vector" src={flecheHaut } /> /* si flêche vers le haut */
           ) : ( /* else  */
             
-            <img src={flecheBas} />// si flêche vers le bas
+            <img class="vector" src={flecheBas} />// si flêche vers le bas
           )}
         </div>
        
