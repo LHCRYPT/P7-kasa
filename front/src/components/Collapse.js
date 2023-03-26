@@ -3,15 +3,6 @@ import flecheHaut from "../fleche-haut.png";
 import flecheBas from "../fleche-bas.png";
 import styles from "./Collapse.css";
 
-/*ici ce trouve l'encadrement de fiabilité et l'icône flèche*/
-// function Collapse(data) {
-  
-//   return (
-//     <div>
-      
-//     </div>
-//   );
-// }
 
 const Collapse = (props) => {  
     //collapse fermé
@@ -45,35 +36,4 @@ const Collapse = (props) => {
   };
 export default Collapse;
 
-/* function Cart({ cart, updateCart }) {
-    const monsteraPrice = 8
-    const [isOpen, setIsOpen] = useState(true)
 
-    return isOpen ? (
-        <div className='lmj-cart'>
-            <button
-                className='lmj-cart-toggle-button'
-                onClick={() => setIsOpen(false)}
-            >
-                Fermer
-            </button>
-            <h2>Panier</h2>
-            <h3>Total : {monsteraPrice * cart}€</h3>
-            <button onClick={() => updateCart(0)}>Vider le panier</button>
-        </div>
-    ) : (
-        <div className='lmj-cart-closed'>
-            <button
-                className='lmj-cart-toggle-button'
-                onClick={() => setIsOpen(true)}
-            >
-                Ouvrir le Panier
-            </button>
-        </div>
-    )
-}
-
-export default Cart */
-
-/*  <i className="fa-solid fa-chevron-up"></i>*/
-/*  <i className="fa-solid fa-chevron-down"></i> */
