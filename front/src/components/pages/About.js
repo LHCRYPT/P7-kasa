@@ -37,16 +37,7 @@ function About() {
      <Collapse titre= "Sécurité" text=" La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes.  " 
      />
    
-     {/* <p className="Fiabilité"> Fiabilité <div className="vector"> <i id="arrow" class="arrow_back_ios-24px 2g"></i>  </div></p>
-     <p className="annonces">Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes.</p>
-   
-    <p className="Respect"> Respect</p>
-    <p className="Service"> Service</p>
-    <p className="Sécurité"> Sécurité</p>  */}
-
- {/* <Collapse/> enlever le commentaire quand fichier collapse est fait  */}
   
-   
 
       <Footer />
     
