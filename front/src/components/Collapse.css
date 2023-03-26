@@ -1,7 +1,26 @@
-.button_container{ /* pour les titres */
-    background-color: #FF6060;
+.button_container{ 
+    /* position: absolute;  */
+/* left: 0%;
+right: 0%;
+top: 0%;
+bottom: 74.46%;
+width:70%;
+height:47px; */
+
+
+background-color: aqua;
 }
 
+.collapse_button{  /* pour les titres */
+    border-radius: 5px;
+background: #FF6060;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 74.46%;
+width:70%;
+height:47px;
+}
 
 .titre{
 
