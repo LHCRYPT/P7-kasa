@@ -22,13 +22,15 @@ width:70%;
 height:47px;
 }
 
-.titre{
+
+titre{
 
     position: absolute;
     left: 1.77%;
     right: 88.75%;
     
-    margin-top: 5%;
+     margin-top: 135%;
+    padding-top: 125.75%;
     /* bottom: 15.72%; */
     
     font-family: 'Montserrat';
@@ -40,9 +42,9 @@ height:47px;
     /* or 34px */
     display: flex;
     align-items: center;
-    
-     color: #FFFFFF; 
-     background: #FF6060;
+    color: blue;
+     /* color: #FFFFFF;  */
+     background: blue;
     border-radius: 5px;
     /*background-size: 50% auto;*/  /* 1ère valeur : la largeur, 2nd valeur : la hauteur */
     
@@ -52,9 +54,9 @@ height:47px;
     
           position: absolute; 
         /* left: 58.75%;
-        /* right: 2.63%; */
-        /* top: 78.75%;  */
-        /* bottom: -8.17%;  */
+     right: 2.63%;
+         top: 78.75%; 
+        bottom: -8.17%;  */
         
         color: #FFFFFF;
          /* transform: rotate(-45deg);  */
@@ -63,8 +65,8 @@ height:47px;
         /* display: flex;
     align-items: flex-end;
     text-align: right; */
-    /* width:14.06px; */
-height:13.86px;
+     /* width:14.06px; 
+height:13.86px; */
 /*margin-top: 78.75%; concerne les marges exterieures bas */
 margin-left: 1150px;
     }
