@@ -3,27 +3,29 @@
 /* left: 0%;
 right: 0%;
 top: 0%;
-bottom: 74.46%;
-width:70%;
-height:47px; */
+bottom: 74.46%;*/
+width:1230px;
+height:0px; 
+background-color: #FF6060;
+margin-top: 50px;
+padding-top: 5.75px;
+border-radius: 5px;
 
-
-background-color: aqua;
 }
 
 .collapse_button{  /* pour les titres */
-    border-radius: 5px;
-background: #FF6060;
+
 left: 0%;
 right: 0%;
 top: 0%;
 bottom: 74.46%;
-width:70%;
-height:47px;
+/* width:10%;
+height:47px; */
+padding-bottom: -70px;
 }
 
 
-titre{
+.titre{
 
     position: absolute;
     left: 1.77%;
