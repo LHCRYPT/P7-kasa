@@ -15,79 +15,12 @@ border-radius: 5px;
 
 .collapse_button{  /* pour les titres */
 
-left: 0%;
+/* left: 0%;
 right: 0%;
 top: 0%;
-bottom: 74.46%;
+bottom: 74.46%; */
 /* width:10%;
 height:47px; */
-padding-bottom: -70px;
+/* padding-bottom: -170px; */
 }
 
-
-.titre{
-
-    position: absolute;
-    left: 1.77%;
-    right: 88.75%;
-    
-     margin-top: 135%;
-    padding-top: 125.75%;
-    /* bottom: 15.72%; */
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 124px;
-    line-height: 142.6%;
-    
-    /* or 34px */
-    display: flex;
-    align-items: center;
-    color: blue;
-     /* color: #FFFFFF;  */
-     background: blue;
-    border-radius: 5px;
-    /*background-size: 50% auto;*/  /* 1ère valeur : la largeur, 2nd valeur : la hauteur */
-    
-    }
-    
-    .vector { 
-    
-          position: absolute; 
-        /* left: 58.75%;
-     right: 2.63%;
-         top: 78.75%; 
-        bottom: -8.17%;  */
-        
-        color: #FFFFFF;
-         /* transform: rotate(-45deg);  */
-         background-color: black; 
-
-        /* display: flex;
-    align-items: flex-end;
-    text-align: right; */
-     /* width:14.06px; 
-height:13.86px; */
-/*margin-top: 78.75%; concerne les marges exterieures bas */
-margin-left: 1150px;
-    }
-    
-    
-    /*.annonces {  texte sous fiabilité */
-        /*position: absolute;
-        left: 1.76%;
-        right: 2.64%;
-        top: 40.22%;
-        bottom: 10.33%;
-        
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 142.6%;
-            
-        color: #FF6060;
-    }*/
-    
-   
