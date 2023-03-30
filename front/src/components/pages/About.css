@@ -59,68 +59,6 @@
 }
 
 
-.titre{
 
-    /* position: absolute;
-    left: 1.77%;
-    right: 88.75%;
-    
-     margin-top: 135%;
-    padding-top: 125.75%; */
-    /* bottom: 15.72%; */
-    
-    /* font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 124px;
-    line-height: 142.6%; */
-    
-    /* or 34px */
-    /* display: flex;
-    align-items: center;
-    color: blue; */
-     /* color: #FFFFFF;  */
-     /* background: blue;
-    border-radius: 5px; */
-    /*background-size: 50% auto;*/  /* 1ère valeur : la largeur, 2nd valeur : la hauteur */
-    
-    }
-    
-    .vector { 
-    
-          position: absolute; 
-        /* left: 58.75%;
-     right: 2.63%;
-         top: 78.75%; 
-        bottom: -8.17%;  */
-        
-        color: #FFFFFF;
-        background-color: black; 
-        margin-left: 1150px;
-        /* display: flex;
-    align-items: flex-end;
-    text-align: right; */
-     /* width:14.06px; 
-height:13.86px; */
-/*margin-top: 78.75%; concerne les marges exterieures bas */
-
-    }
-    
-    
-   /* .text {  texte sous fiabilité*/
-        /*position: absolute;
-        left: 1.76%;
-        right: 2.64%;
-        top: 40.22%;
-        bottom: 10.33%;
-        
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 142.6%;
-            
-        color: #FF6060;
-    }*/
     
    

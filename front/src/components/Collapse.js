@@ -16,18 +16,18 @@ const Collapse = (props) => {
     return (
       <div className="collapse-element">
         
-        <div className="button_container" onClick={toggle}> {/* toggle collapse Cliquez sur les boutons pour afficher/masquer un autre élément via les changements de classe */}
-          <div className="collapse_button">
-            {" "}
-            <p>{props.titre}</p>{" "}
+        <div className="button-container" onClick={toggle}> {/* toggle collapse Cliquez sur les boutons pour afficher/masquer un autre élément via les changements de classe */}
+          <div className="collapse-titre">
+            
+            {props.titre}
           </div>
-          
+          <div className="collapse-button">
           {isOpen ? ( /* if open ne pas mettre if c'est if ternaire*/
-            <img class="vector" src={flecheHaut } /> /* si flêche vers le haut */
+            <img className="vector" src={flecheHaut } /> /* si flêche vers le haut */
           ) : ( /* else  */
             
             <img class="vector" src={flecheBas} />// si flêche vers le bas
-          )}
+          )}</div>
         </div>
        
         {isOpen && <div className="collapse-element"> {props.text} </div>} {/* si flêche vers le haut, && = if ternaire avec condition */}
