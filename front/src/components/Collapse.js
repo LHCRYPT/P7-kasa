@@ -26,7 +26,7 @@ const Collapse = (props) => {
             <img className="vector" src={flecheHaut } /> /* si flêche vers le haut */
           ) : ( /* else  */
             
-            <img class="vector" src={flecheBas} />// si flêche vers le bas
+            <img className="vector" src={flecheBas} />// si flêche vers le bas
           )}</div>
         </div>
        
