@@ -1,5 +1,6 @@
 import React, { component, useEffect, useState } from 'react';
- import { Routes, Route } from "react-router-dom"
+import { Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom"
 // import { Link } from "react-router-dom";
 import styles from "./PageLogement.css";
 import Logo from "../../logo-kasa.svg";
@@ -22,10 +23,8 @@ import Error from "./Error";
             <> 
     <Header /> 
             <img className="Bouddha" src={imageBouddha} alt="photo d'une salle à manger" />
-     {/* <header className="header">
-         <img className="logoHeader" src={Logo} alt="Logo Kasa" ></img>
-      
-         
+      <header className="header">
+             
          <nav className="headerLink">
             <div>
               <Link to={`/`}><p className="Accueil">Accueil</p></Link>
@@ -34,8 +33,10 @@ import Error from "./Error";
               <Link to={`/About`}><p className="APropos">A Propos</p></Link>
             </div>
           </nav>
-        </header> */}
-        </>  );
+        </header> 
+        <Footer />
+        </> 
+        );
         }
         
         export default PageLogement;
