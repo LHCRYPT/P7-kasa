@@ -1,6 +1,5 @@
 import React, { component, useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
-// import Header from "../Header";
 import Logo from "../../logo-kasa.svg";
 import imageBannerBleue from "../../imageBannerBleue.jpg";
 import Footer from "../Footer";

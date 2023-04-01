@@ -7,13 +7,10 @@ import Logo from "../../logo-kasa.svg";
 import imageBouddha from "../../Bouddha.png";
 import { useLocation } from "react-router-dom";
 import Header from "../Header";
-
-// import VectorHaut from "../../VectorHaut.png";
-// import VectorBas from "../../VectorBas.png";
 import Footer from "../Footer";
-import Error from "./Error";
 
-// import Collapse from "../Collapse";
+
+import Collapse from "../Collapse";
 
 
       function PageLogement() {
