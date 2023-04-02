@@ -1,4 +1,4 @@
-.collapse-element{
+.collapse-element{ /* la box qui contient la box avec à l'intérieur Fiabilité*/
    width:1230px;
   
    margin-top: 50px; 
@@ -11,7 +11,7 @@
 
 
 
-.button-container{ 
+.button-container{ /* la box avec à l'intérieur Fiabilité*/
 background-color: #FF6060;
 border-radius: 5px;
 height: 24px;
@@ -26,7 +26,7 @@ justify-content: space-between;
 
 }
 
-.collapse-titre {
+.collapse-titre { /* Fiabilité*/
 /* margin-left: 2px;
 margin-top: 2px; */
 font-family: 'Montserrat';
@@ -44,15 +44,12 @@ display: flex;
 align-items: center;
 }
 
-.vector{
-    /* position: absolute; */
-    left: 12.5%;
-    right: 12.5%;
-    top: 28.12%;
-    bottom: 29.02%;
+.collapse-button{ /* la box avec la flèche*/
+    padding-top: 2px;
     
-    background: black; 
 }
+
+
    
     
     
