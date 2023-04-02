@@ -5,6 +5,7 @@ import imageBannerBleue from "../../imageBannerBleue.jpg";
 import Footer from "../Footer";
 import styles from "./About.css";
 
+
 import Collapse from "../Collapse";
 
 function About() {
