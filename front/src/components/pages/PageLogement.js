@@ -36,7 +36,7 @@ import Collapse from "../Collapse";
             </div>
           </nav>
         </header> 
-        <p className="Chez"> Chez vous, partout et ailleurs</p>
+        
         <Footer />
         </> 
         );
