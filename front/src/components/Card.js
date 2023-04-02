@@ -4,7 +4,7 @@ import styles from "./Card.css";
 
 /*une vignette avec une photo qui lira le fichier json depuis home et faire un point map pour appeler autant de fois la card*/
 function Card(data) {
-  /*console.log(data.image);*/
+  // console.log(data.image);
   return (
     <div>
       <Link to={`/logement/${data.id}`}> {/*  id du logement */}

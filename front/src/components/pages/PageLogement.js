@@ -6,6 +6,7 @@ import styles from "./PageLogement.css";
 import Logo from "../../logo-kasa.svg";
 import imageBouddha from "../../Bouddha.png";
 import { useLocation } from "react-router-dom";
+
 import Header from "../Header";
 import Footer from "../Footer";
 import Card from "../Card";
@@ -16,9 +17,11 @@ import Collapse from "../Collapse";
 
 
       function PageLogement() {
-        const id = useLocation().state["id"];
-        console.log(id);
-     
+        // const { state } = useLocation()
+        const { state } = useParams();
+        // const id = useLocation().state["id"];
+        // console.log(id);
+       
         return (
           <> 
     <Header /> 
