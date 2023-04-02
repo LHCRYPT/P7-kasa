@@ -11,52 +11,32 @@
     
     }
 
+    .Accueil{ /*mot Accueil */
     
-.Accueil{ /*mot Accueil */
-
-    position: absolute;
-    left: 64%;
-    right: 13.95%;
-    top: 18%;
-    /*bottom: 25%;*/
+        margin-top: -56px; /* concerne les marges exterieures bas */
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;   
+        color: #FF6060;
+        display: flex;
+        align-items: flex-end;
+        text-align: right;
+    }
     
-    font-family: 'Montserrat';
-    font-style: normal;
-    /*font-weight: 500;*/
-    font-size: 24px;
-    /*line-height: 142.6%;*/
+    .APropos{ /*mot Accueil */
     
-    /* or 34px */
-    display: flex;
-    align-items: flex-end;
-    text-align: right;
-    text-decoration-line: underline;
-    
-    color: #FF6060;
-}
-
-.APropos{ /*mot Accueil */
-
-    position: absolute;
-    left: 70%;
-    right: 13.95%;
-    top: 18%;
-    /*bottom: 55%;*/
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    /*font-weight: 500;*/
-    font-size: 24px;
-    /*line-height: 142.6%;*/
-    
-    /* or 34px */
-    display: flex;
-    align-items: flex-end;
-    text-align: right;
-    text-decoration-line: underline;
-    
-    color: #FF6060;
-}
+       margin-left: 10px;
+       margin-top: -56px;
+       font-family: 'Montserrat';
+       font-style: normal;
+       font-weight: 500;
+       font-size: 24px;   
+       color: #FF6060;
+       display: flex;
+       align-items: flex-end;
+       text-align: right;
+    }
 
 
 

@@ -19,10 +19,10 @@ function About() {
      
      <nav className="headerLink">
         <div>
-          <Link to={`/`}><p className="Accueil">Accueil</p></Link>
+        <Link to={`/`}><h1 className="Accueil">Accueil</h1></Link>
         </div>
         <div>
-          <Link to={`/About`}><p className="APropos">A Propos</p></Link>
+          <Link to={`/About`}><h1 className="APropos">A Propos</h1></Link>
         </div>
       </nav>
     

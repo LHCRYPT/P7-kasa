@@ -7,15 +7,42 @@
 
 p {
      color: #FFFFFF; 
-     margin-top: -50px;
+      margin-top: -50px;
      margin-left: 10px; /* concerne les marges exterieures  */
-     font-size: 18px;
+    font-size: 18px;
      padding-left: 10px;
      padding-right: 10px;
-     font-weight: bold;
+     font-weight: 500;
+     font-size: 17px;
      text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
-     width: 340px;
+     width: 340px; 
+     font-family: 'Montserrat';
+     font-style: normal;
+      
+     display: flex;
+     align-items: flex-end; 
+
 }
+
+.titre-card{
+    color: #FFFFFF; 
+    margin-top: -50px;
+   margin-left: 10px; /* concerne les marges exterieures  */
+  font-size: 18px;
+   padding-left: 10px;
+   padding-right: 10px;
+   font-weight: 500;
+   font-size: 17px;
+   text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+   width: 340px; 
+   font-family: 'Montserrat';
+   font-style: normal;
+    
+   display: flex;
+   align-items: flex-end; 
+}
+
+
 div {
     padding: 50px;
     
