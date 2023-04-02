@@ -1,48 +1,32 @@
 
 .Accueil{ /*mot Accueil */
-
     position: absolute;
     left: 64%;
     right: 13.95%;
-    top: 18%;
-    /*bottom: 25%;*/
-    
-    font-family: 'Montserrat';
+    top: 14%;
+     font-family: 'Montserrat';
     font-style: normal;
-    /*font-weight: 500;*/
-    font-size: 24px;
-    /*line-height: 142.6%;*/
-    
-    /* or 34px */
-    display: flex;
+     font-size: 24px;
+     display: flex;
     align-items: flex-end;
     text-align: right;
     text-decoration-line: underline;
-    
-    color: #FF6060;
+     color: #FF6060;
 }
 
 .APropos{ /*mot Accueil */
-
     position: absolute;
     left: 70%;
     right: 13.95%;
-    top: 18%;
-    /*bottom: 55%;*/
-    
-    font-family: 'Montserrat';
+    top: 14%;
+       font-family: 'Montserrat';
     font-style: normal;
-    /*font-weight: 500;*/
-    font-size: 24px;
-    /*line-height: 142.6%;*/
-    
-    /* or 34px */
-    display: flex;
+       font-size: 24px;
+     display: flex;
     align-items: flex-end;
     text-align: right;
     text-decoration-line: underline;
-    
-    color: #FF6060;
+     color: #FF6060;
 }
 
 .erreur{
@@ -52,27 +36,20 @@
 }
 
 .nombre{ /* 404 */
-/* position: absolute; */
 display: flex;
 align-items: center;
 text-align: center;  
-
 color: #FF6060;
 font-size: 175px;
     font-weight: 700;
     margin-left: 438px;
     margin-bottom:60px ; /* marges extérieures bas*/
     margin-top: -40px;
-    /*padding-top: -550px; concerne  marge interieure haut  */
 }
 
 .texte{
-
   margin-left:80px; 
-
 width:90% ;
-
-
 color: #FF6060;
    font-size: 36px;
 font-weight: 500;
@@ -86,33 +63,22 @@ font-style: normal;
 line-height: 142.6%;
 display: flex;
 align-items: flex-end;
-
 }
-
-
-
 
 .retourAccueil{
 
-/* margin-bottom: -155px;/* concerne les marges exterieures bas */
-/*margin-left: 498px; */
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 142.6%;
-
-/* identical to box height, or 26px */
 display: flex;
 align-items: flex-end;
 text-decoration-line: underline;
-
 color: #FF6060;
-
 position: absolute;
 left: 36.14%;
 right: 40.14%;
 top: 71.93%;
 bottom: 20.53%;
-
 }
