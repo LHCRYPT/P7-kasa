@@ -45,7 +45,13 @@ align-items: center;
 }
 
 .vector{
+    /* position: absolute; */
+    left: 12.5%;
+    right: 12.5%;
+    top: 28.12%;
+    bottom: 29.02%;
     
+    background: black; 
 }
    
     
