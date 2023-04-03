@@ -10,6 +10,7 @@ import { useLocation } from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
 import Card from "../Card";
+import Carousel from "../Carousel";
 import logements from "../../data/logements.json";
 
 
@@ -26,6 +27,7 @@ import Collapse from "../Collapse";
           <> 
     <Header /> 
     <Collapse />
+    <Carousel />
         
             <img className="Bouddha" src={imageBouddha} alt="photo d'une salle à manger" />
       <header className="header">

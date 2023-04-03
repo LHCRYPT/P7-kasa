@@ -4,10 +4,10 @@
    margin-top: 50px; 
    margin-left: auto;
    margin-right: auto;
-   color: #FF6060;
+   color: #FF6060; /* pour le texte sous fiabilité*/
    margin-bottom: -100px;
    background: #F7F7F7;
-border-radius: 5px;
+   border-radius: 5px;
 
 }
 
