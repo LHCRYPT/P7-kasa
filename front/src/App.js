@@ -7,6 +7,8 @@ import About from "./components/pages/About";
 import {createBrowserRouter,RouterProvider} from 'react-router-dom';
 import PageLogement from './components/pages/PageLogement';
 
+
+
 const router = createBrowserRouter([
     {path:"/" ,element:<Home />},
     {path:"/about" ,element:<About />},
@@ -19,5 +21,8 @@ function App() {
     <RouterProvider router={router}/>
      );
 }
+
+
+
 
 export default App;
