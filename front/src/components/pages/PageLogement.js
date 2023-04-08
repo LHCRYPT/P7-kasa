@@ -31,7 +31,7 @@ import Collapse from "../Collapse";
    <Collapse /> 
     
         
-            <img className="Bouddha" src={imageBouddha} alt="photo d'une salle à manger" />
+            {/* <img className="Bouddha" src={imageBouddha} alt="photo d'une salle à manger" /> */}
       <header className="header">
              
          <nav className="headerLink">
