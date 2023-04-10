@@ -18,8 +18,8 @@ import Collapse from "../Collapse";
 
 
       function PageLogement() {
-        // const { state } = useLocation()
-        const { state } = useParams('id').id;
+        const { state } = useLocation();
+        // const { state } = useParams('id').id;
         
         // const id = useLocation().state["id"];
         // console.log(id);
@@ -28,9 +28,9 @@ import Collapse from "../Collapse";
           <> 
     <Header /> 
     <Carousel /> 
-   <Collapse /> 
+   {/* <Collapse />  */}
     
-        
+   <h1>CDE</h1>
             {/* <img className="Bouddha" src={imageBouddha} alt="photo d'une salle à manger" /> */}
       <header className="header">
              
