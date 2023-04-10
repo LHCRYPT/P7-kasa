@@ -2,7 +2,7 @@ import React, { component, useEffect, useState } from 'react';
 import styles from "./Carousel.css";
 import flecheHaut from "../fleche-haut.png";
 import flecheBas from "../fleche-bas.png";
-import logements from "../data/logements.json";
+// import logements from "../../data/logements.json";
 import {useLocation} from 'react-router-dom';
 import { Link } from "react-router-dom";
 

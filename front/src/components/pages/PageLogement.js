@@ -11,7 +11,7 @@ import Header from "../Header";
 import Footer from "../Footer";
 import Card from "../Card";
 import Carousel from "../Carousel";
-import logements from "../../data/logements.json";
+// import logements from "../../data/logements.json";
 
 
 import Collapse from "../Collapse";
@@ -54,6 +54,8 @@ import Collapse from "../Collapse";
             </div>
           </nav>
         </header> 
+        
+
         
         <Footer />
         </> 
