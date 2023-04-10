@@ -18,12 +18,23 @@ import Collapse from "../Collapse";
 
 
       function PageLogement() {
-        const { state } = useLocation();
+        // const { state } = useLocation();
         // const { state } = useParams('id').id;
         
         // const id = useLocation().state["id"];
         // console.log(id);
        
+        const data = require("../../data/logements.json")
+        //identification du logment selectionné par id
+          function getLogementWithId (data, logementId) {
+            for (let logement of data) {
+              if (logement.id === logementId) { 
+              return logement
+          }}}
+          
+        const {logementId} = useParams()
+        const logement = getLogementWithId(data, logementId)
+
         return (
           <> 
     <Header /> 
