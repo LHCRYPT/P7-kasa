@@ -1,14 +1,4 @@
-.Bouddha{
-    position: absolute;
-    width:1390px;
-    height:223px;
-    top:171px;
-    left:55px;
-    /*opacity:30%;*/
-    mix-blend-mode:Darken; /* propriété spécifie comment le contenu d'un élément doit se fondre avec son arrière-plan*/
-    background: #000000;  
-    border-radius: 25px;
-     }
+
 
 
      .Accueil{ /*mot Accueil */

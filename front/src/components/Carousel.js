@@ -6,13 +6,13 @@ import logements from "../data/logements.json";
 import { useParams } from "react-router-dom";
 
 function Carousel({ title, pictures }) {
-  console.log("bcd");
+  
   
     const [index, setIndex] =
-      useState(
+      useState(/* utilisation du crochet useState pour créer une var d’état (index), pour garder une trace de la position actuelle dans le carrousel.*/
         0
-      ); /* utilisation du crochet useState pour créer une var d’état (index), pour garder une trace de la position actuelle dans le carrousel.*/
-    //const length = 3;
+      ); 
+    
     const length = pictures.length;
     /* Les fonctions handlePrevious et handleNext s’occupent des mises à jour de la valeur d’index lorsque l’utilisateur clique sur le Précédent et Prochain boutons*/
     const handlePrevious = () => {
@@ -32,7 +32,8 @@ function Carousel({ title, pictures }) {
     return (
       <>
         <div className="carousel">
-          <img src={pictures[index]} />
+          <img className="photo" src={pictures[index]} />
+          {/* <img className="Bouddha" src={imageBouddha} alt="photo d'une salle à manger" />  */}
           <h1>ABC</h1>
           <button onClick={handlePrevious}>Previous</button>
           <button onClick={handleNext}>Next</button>

@@ -18,44 +18,25 @@ import logements from "../../data/logements.json";
       function PageLogement() {
        
         const {id} =useParams();
-        // const id= "c67ab8a7";
-        //const id= useLocation();
-        // console.log(id);
+    
         let tableau=[];
          for (let l of logements){
               if (l.id==id){
                 tableau= l.pictures;
-                // console.log (l.pictures);
-                 
+                              
            }
          }
           
   
-        // 
-        //identification du logment selectionné par id
-        //   function getLogementWithId (data, logementId) {
-        //     for (let logement of data) {
-        //       if (logement.id === logementId) { 
-        //       return logement
-        //   }}}
-          
-        // const {logementId} = useParams()
-        // const logement = getLogementWithId(data, logementId)
-
         return (
           <> 
     <Header /> 
     {/* <Carousel />  */}
-    <h1> test </h1>
+    {/* <h1> test </h1> */}
 
     <Carousel title="abc" pictures={tableau}  /> 
 
-   {/* <Etoile />  */}
-   {/* <Collapse />  */}
-    
-   
-   {/* <Etoile/> */}
-           {/* <img className="Bouddha" src={imageBouddha} alt="photo d'une salle à manger" />  */}
+           
       <header className="header">
              
          <nav className="headerLink">
