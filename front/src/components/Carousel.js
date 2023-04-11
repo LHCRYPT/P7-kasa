@@ -33,10 +33,11 @@ function Carousel({ title, pictures }) {
       <>
         <div className="carousel">
           <img className="photo" src={pictures[index]} />
-          {/* <img className="Bouddha" src={imageBouddha} alt="photo d'une salle à manger" />  */}
           <h1>ABC</h1>
-          <button onClick={handlePrevious}>Previous</button>
-          <button onClick={handleNext}>Next</button>
+          <button onClick={handlePrevious} className= "flecheGauche">Previous</button>
+          <button onClick={handleNext} className= "flecheDroite">Next</button>
+          {/* <img className={styles.arrow1} src={leftVector} alt='left arrow' onClick={() => leftClick()} />
+           <img className={styles.arrow2} src={rightVector} alt='right arrow' onClick={() => rightClick()} /> */}
           <p>{index}</p>
         </div>
       </>
