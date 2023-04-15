@@ -2,6 +2,8 @@ import React, { component, useEffect, useState } from "react";
 import styles from "./Carousel.css";
 import flecheHaut from "../fleche-haut.png";
 import flecheBas from "../fleche-bas.png";
+import flecheDroite from "../flecheDroite.png";
+import flecheGauche from "../flecheGauche.png";
 import logements from "../data/logements.json";
 import { useParams } from "react-router-dom";
 
@@ -33,11 +35,16 @@ function Carousel({ title, pictures }) {
       <>
         <div className="carousel">
           <img className="photo" src={pictures[index]} />
-          <h1>ABC</h1>
-          <button onClick={handlePrevious} className= "flecheGauche">Previous</button>
-          <button onClick={handleNext} className= "flecheDroite">Next</button>
-          {/* <img className={styles.arrow1} src={leftVector} alt='left arrow' onClick={() => leftClick()} />
-           <img className={styles.arrow2} src={rightVector} alt='right arrow' onClick={() => rightClick()} /> */}
+           {/* <h1>ABC</h1>  */}
+          {/* {length !== 1 &&  */}
+          <p className= "flecheGauche" onClick={handlePrevious} > 
+          <img className="fg" src={flecheGauche } />
+          </p>
+          
+          <p className= "flecheDroite" onClick={handleNext} > 
+          <img className="fd" src={flecheDroite } />
+          </p>
+         
           <p>{index}</p>
         </div>
       </>
