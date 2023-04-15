@@ -10,28 +10,47 @@
     border-radius: 25px;
        }
   
-     .flecheGauche{
-        /* position: absolute;  */
+     /* .flecheGauche{
+       position: absolute;   
         left: 0%;
         right: 0%;
         top: 0%;
         bottom: 0%;
-        
-        /* background: #FFFFFF; */
-          background: red; 
+        background: red;  
         width:46.68px;
         height:79.2px;
-     }
+     } */
 
-     .flechDroite{
-       /* position: absolute; */
-        left: 0%;
+     /* .flecheDroite{
+       position: absolute; 
+        left: 160%;
         right: 0%;
         top: 0%;
         bottom: 0%;
-        
-        /* background: #FFFFFF; */
-          background: red; 
+        background: #FFFFFF; 
+        background: red;  
         width:46.68px;
         height:79.2px;
-     }
+     } */
+
+     .fg{
+      /* position: absolute;   */
+      margin-left: -12%;
+     right: 0%;
+     top: 0%;
+     bottom: 0%;
+     background: blue; 
+    width:46.68px;
+     height:79.2px;
+  }
+
+  .fd{
+    /* position: absolute;   */
+   margin-left: 365%;
+   margin-right: 0%;
+   top: 0%;
+   bottom: 0%;
+   background: blue; 
+   width:46.68px;
+   height:79.2px;
+}
