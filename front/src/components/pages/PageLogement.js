@@ -7,9 +7,9 @@ import Logo from "../../logo-kasa.svg";
 import imageBouddha from "../../Bouddha.png";
 import Header from "../Header";
 import Footer from "../Footer";
-import Card from "../Card";
+// import Card from "../Card";
 import Carousel from "../Carousel";
-//import Etoile from "../Etoile";
+import Etoile from "../Etoile";
 // import { Rating} from 'react-simple-star-rating'
 import logements from "../../data/logements.json";
 // import Collapse from "../Collapse";
@@ -31,6 +31,7 @@ import logements from "../../data/logements.json";
         return (
           <> 
     <Header /> 
+    <Etoile rating="1" /> 
     {/* <Carousel />  */}
     {/* <h1> test </h1> */}
 
