@@ -22,7 +22,7 @@ const Collapse = (props) => {
             {props.titre}
           </div>
           <div className="collapse-button">
-          {isOpen ? ( /* if open ne pas mettre if c'est if ternaire*/
+          {isOpen ? ( /* if open ne pas mettre if,c'est if ternaire car il y a ? et :*/
             <img className="vector" src={flecheHaut } /> /* si flêche vers le haut */
           ) : ( /* else  */
             
