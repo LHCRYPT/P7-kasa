@@ -35,8 +35,6 @@ function Carousel({ title, pictures }) {
       <>
         <div className="carousel">
           <img className="photo" src={pictures[index]} />
-           {/* <h1>ABC</h1>  */}
-          {/* {length !== 1 &&  */}
           <p className= "flecheGauche" onClick={handlePrevious} > 
           <img className="fg" src={flecheGauche } />
           </p>
