@@ -18,11 +18,13 @@ import logements from "../../data/logements.json";
       function PageLogement() {
        
         const {id} =useParams();
+    let rating=0;
     
         let tableau=[];
          for (let l of logements){
               if (l.id==id){
-                tableau= l.pictures;
+                tableau= l.pictures; /* pour que les photos apparaissement*/
+                rating=l.rating; /* pour que les étoiles apparaissement*/
                               
            }
          }
@@ -31,9 +33,11 @@ import logements from "../../data/logements.json";
         return (
           <> 
     <Header /> 
-    <Etoile rating="1" /> 
+    <Etoile rating={rating} /> 
     {/* <Carousel />  */}
     {/* <h1> test </h1> */}
+
+
 
     <Carousel title="abc" pictures={tableau}  /> 
 
