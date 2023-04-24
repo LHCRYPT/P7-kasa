@@ -19,7 +19,7 @@ const Rating = ({ rating }) => {
             ) : (
               <img
                 key={etoile.toString()}
-                className="etoileIcone"
+                className="etoileIcones"
                 src={etoileBlanche} alt="étoile blanche"
               />
             )
