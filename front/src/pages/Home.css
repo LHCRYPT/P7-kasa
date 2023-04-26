@@ -1,8 +1,13 @@
-.tous-appartements
-{
-	display :flex ;
-    flex-wrap: wrap ;
-
-   
+.home {
+    margin: 0 100px;
+    min-height: 500px;
 }
-
+.cards {
+    display: flex; 
+    flex-wrap:wrap;
+    gap: 30px;
+    justify-content:space-between;
+  }
+  .couleur-rose{
+    color: #FF6060;
+}
