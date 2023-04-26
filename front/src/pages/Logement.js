@@ -16,42 +16,30 @@ export default function Logement() {
       // pour trouver le logement en fct de L'ID
          for (let l of logements){
               if (l.id==id){
-                tableau= l.pictures; /* pour que les photos apparaissement*/
-                rating=l.rating; /* pour que les étoiles apparaissement*/
-                              
-           }
-         }
-          
-  
-        return (
-          <> 
-    <Header /> 
-    <Etoile rating={rating} /> 
-    {/* <Carousel />  */}
- 
-
-
-
-    <Carousel title="abc" pictures={tableau}  /> 
-
-           
-      <header className="header">
-             
-         <nav className="headerLink">
-            <div>
-            <Link to={`/`}><h1 className="Accueil">Accueil</h1></Link>
-        </div>
-        <div>
-          <Link to={`/About`}><h1 className="APropos">A Propos</h1></Link>
-            </div>
-          </nav>
-        </header> 
+                return l;
+              }
+          }
+          return -1;
+      }
+      const {id} = useParams();
+      const navigate = useNavigate();
+      const [logement, setLogement] = useState({});
+      // quand on fait une action au demarrage
+      // il faut utiliser useEffect
+      
+     
+      useEffect(() => {
+          let l = getLogement(id);
+          //if (l == -1) navigate('/error/');
+          // if ternaire
+          (l===-1) && navigate('/error/');
+          setLogement(l);
+          console.log(l);
+         
+        },[]); 
+        // []: cad useEffect est appelé qu'une seul fois
+        // on ne veut que useEffect soit appeler des qu'il y a un render
+      
+        // return on verifie qu'il ya une logement pour afficher l html
+        // avec un if ternaire
         
- 
-        
-        <Footer />
-        </> 
-        );
-        }
-        
-        export default PageLogement;
