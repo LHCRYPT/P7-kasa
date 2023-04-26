@@ -42,4 +42,36 @@ export default function Logement() {
       
         // return on verifie qu'il ya une logement pour afficher l html
         // avec un if ternaire
-        
+
+
+     return logement.id &&(
+        <>
+        <section className="home">
+         <Header />
+       
+        <Slider pictures={logement.pictures}/>
+        <div className={styles.container}>
+            <div className={styles.gauche}>
+                <h1>{logement.title}</h1>
+                <h2>{logement.location}</h2>
+                {logement.tags.map(tag => <h3>{tag}</h3>)}
+            </div>
+            <div className={styles.droite}>
+            <img className={styles.portrait} src={logement.host.picture} alt={logement.host.name} />
+            <h4>{logement.host.name}</h4>
+            <div><Etoiles rating={logement.rating} /></div>
+            </div>
+        </div>
+        <div className={styles.container}>
+        <div className={styles.container50}>
+        <Collapse titre="Description" texte={logement.description} />
+        </div>
+        <div className={styles.container50}>
+        <Collapse titre="Equipements" liste={logement.equipments} />
+        </div>
+        </div>
+        </section>
+        <Footer />
+        </>
+    );
+  }
