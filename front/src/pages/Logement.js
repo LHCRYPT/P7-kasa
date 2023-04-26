@@ -9,12 +9,11 @@ import Etoiles from "../components/Etoiles";
 import logements from "../assets/data/logements.json";
 import styles from './Logement.module.css'
 
-      function PageLogement() {
-       
-        const {id} =useParams();
-        let rating=0;
+export default function Logement() {
     
-        let tableau=[];
+  function getLogement(id){
+      // parcourrir ts les logement 
+      // pour trouver le logement en fct de L'ID
          for (let l of logements){
               if (l.id==id){
                 tableau= l.pictures; /* pour que les photos apparaissement*/
