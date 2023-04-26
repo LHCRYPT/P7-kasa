@@ -1,9 +1,10 @@
+import "./Error.css";
 import React, { component, useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
 
 import Logo from "../../logo-kasa.svg";
 import Header from "../Header";
-import styles from "./Error.css";
+
 
 
 function Error() {
