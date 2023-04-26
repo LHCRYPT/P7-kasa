@@ -1,9 +1,9 @@
 import React, { component, useEffect, useState } from 'react';
-import Header from "../Header";
-import Banner from "../Banner";
-import Card from "../Card";
-import logements from "../../data/logements.json";
-import Footer from "../Footer";
+import Header from "../components/Header";
+import Banner from "../components/Banner";
+import Card from "../components/Card";
+import logements from "../data/logements.json";
+import Footer from "../components/Footer";
 import styles from "./Home.css";
 
 function Home() {

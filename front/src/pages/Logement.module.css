@@ -1,0 +1,12 @@
+.container {
+   display: flex;
+   justify-content: space-between;
+ }
+ .gauche {
+   width: 70%;
+ }
+ .droite {
+   width: 30%;
+ 
+   margin-top: 40px;
+ }
