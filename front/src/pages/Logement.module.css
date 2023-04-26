@@ -42,3 +42,24 @@ h4 {
   float: right;
 }
 
+.portrait {
+   border-radius: 100px;
+   height: 64px;
+   width: 64px;
+   margin-left: 10px;
+   display: block;
+   float: right;
+ }
+ 
+ .droite div {
+     margin-top: 10px;
+   clear: right;
+   float: right;
+ }
+ .droite div img {
+   width: 20px;
+   margin-left: 15px;
+ }
+ .container50{
+     width:45%;
+ }
