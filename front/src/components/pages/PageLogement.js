@@ -18,7 +18,7 @@ import logements from "../../data/logements.json";
       function PageLogement() {
        
         const {id} =useParams();
-    let rating=0;
+        let rating=0;
     
         let tableau=[];
          for (let l of logements){
@@ -35,7 +35,7 @@ import logements from "../../data/logements.json";
     <Header /> 
     <Etoile rating={rating} /> 
     {/* <Carousel />  */}
-    {/* <h1> test </h1> */}
+ 
 
 
 
