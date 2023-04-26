@@ -1,19 +1,13 @@
-import React, { component, useEffect, useState } from 'react';
-import { Link } from "react-router-dom";
-import { Routes, Route } from "react-router-dom"
-import { useParams } from "react-router-dom";
-import styles from "./PageLogement.css";
-import Logo from "../../logo-kasa.svg";
-import imageBouddha from "../../Bouddha.png";
-import Header from "../Header";
-import Footer from "../Footer";
-// import Card from "../Card";
-import Carousel from "../Carousel";
-import Etoile from "../Etoile";
-// import { Rating} from 'react-simple-star-rating'
-import logements from "../../data/logements.json";
-// import Collapse from "../Collapse";
-
+import {useParams} from 'react-router-dom';
+import { useEffect,useState } from 'react';
+import { useNavigate } from "react-router-dom";
+import Header from "../components/Header";
+import Slider from "../components/Slider";
+import Collapse from "../components/Collapse";
+import Footer from "../components/Footer";
+import Etoiles from "../components/Etoiles";
+import logements from "../assets/data/logements.json";
+import styles from './Logement.module.css'
 
       function PageLogement() {
        
