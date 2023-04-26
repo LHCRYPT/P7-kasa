@@ -7,26 +7,24 @@ import logements from "../assets/data/logements.json";
 import Footer from "../components/Footer";
 import image from "../assets/img/banner/banner.jpg";
 
-
-function Home() {
-  
+/* Link remplace la balise a */
+export default function Home() {
     return (
-    <>
-    <Header/>
-    <Banner/>
-    <Footer/>
-  
-    <div className='tous-appartements' >  
-    {
-        logements.map(loc=><Card 
-        key={loc.id} /* Les clés aident React à identifier quels éléments d’une liste ont changé, ont été ajoutés ou supprimés. on utilise l’ID de notre donnée comme clé car identifie de façon unique un élément d’une liste  */
-        id={loc.id} 
-        image={loc.cover}
-        title={loc.title}></Card>) /* pour déplier le tableau logement*/
-    }
-     </div>
-    </>
+      <>
+        <section className="home">
+          <Header />
+          <Banner texte={"Chez vous, partout et ailleurs"} image={image}/>
+          <div className="cards">
+            {
+              /* pour chaque logement on appelle le composant Card */
+              logements.map(
+                (logem) => (
+                <Card key={logem.id} logement={logem} />
+              ))
+            }
+          </div>
+        </section>
+        <Footer />
+      </>
     );
   }
-  
-  export default Home;
