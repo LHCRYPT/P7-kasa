@@ -1,27 +1,24 @@
-import React, { component, useEffect, useState } from 'react';
-import { Routes, Route } from "react-router-dom";
 import './App.css';
-import Home from './components/pages/Home';
-import Error from "./components/pages/Error";
-import About from "./components/pages/About";
+// on importe la fonction pour créer un router
 import {createBrowserRouter,RouterProvider} from 'react-router-dom';
-import PageLogement from './components/pages/PageLogement';
+// On importe les Pages
+import Home from './pages/Home';
+import About from './pages/About';
+import Error from './pages/Error';
+import Logement from './pages/Logement';
 
-
-
-const router = createBrowserRouter([
-    {path:"/" ,element:<Home />},
-    {path:"/about" ,element:<About />},
-    {path:"/logement/:id",element:<PageLogement />},
-    {path:"*",element:<Error />}
-]);
-function App() {
- 
+export default function App() {
+    // Définitions des routes
+    //---------------------------------------------
+    const router = createBrowserRouter([
+      {path:"/" ,element:<Home />},
+      {path:"/about" ,element:<About />},
+      {path:"/logement/:id",element:<Logement />},
+      {path:"*",element:<Error />}
+    ]);
+    //---------------------------------------------
+   // on injecte le router dans le composant principal
     return (
-        
-    <RouterProvider router={router}/>
-    
-     );
-}
-
-export default App;
+      <RouterProvider router={router}/>
+    );
+  }
