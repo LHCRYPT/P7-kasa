@@ -1,10 +1,12 @@
-import React, { component, useEffect, useState } from 'react';
+import "./Home.css";
+
 import Header from "../components/Header";
 import Banner from "../components/Banner";
 import Card from "../components/Card";
-import logements from "../data/logements.json";
+import logements from "../assets/data/logements.json";
 import Footer from "../components/Footer";
-import styles from "./Home.css";
+import image from "../assets/img/banner/banner.jpg";
+
 
 function Home() {
   
