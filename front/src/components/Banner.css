@@ -27,3 +27,19 @@
      color: #fff;
      text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
    }
+
+   @media (min-width: 768px) {
+     .banner {
+       height: 225px;
+       border-radius: 10px;
+     }
+     .texte-banner {
+       padding: 0 5%;
+       text-align: center;
+       font-size: 48px;
+       
+     }
+     .img-banner{
+       border-radius: 10px;
+     }
+   }
