@@ -9,13 +9,11 @@ export default function Card({ logement }) {
     navigate(`/logement/${logement.id}`);
   }
   return (
-    <div>
-      <Link to={`/logement/${data.id}`}> {/*  id du logement */}
-        <img src={data.image} className="img-card" />
-        <p className="titre-card">{data.title}</p>
-      </Link>
+    <div className="card" onClick={naviguer}>
+    <img src={logement.cover} alt={logement.title} />
+    <div>{logement.title}</div>
     </div>
   );
 }
 
-export default Card;
+
