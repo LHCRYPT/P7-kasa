@@ -7,10 +7,10 @@ export default function Etoiles({rating}) {
     
       return (
         <>
-        {etoiles.map((etoile) =>
+        {etoiles.map((etoile,index) =>
             rating >= etoile 
-            ? <img src={etoileRose} alt="étoile rose" />        
-            :<img src={etoileGrise} alt="étoile grise" /> 
+            ? <img key={index} src={etoileRose} alt="étoile rose" />        
+            :<img key={index} src={etoileGrise} alt="étoile grise" /> 
         )}
         </>
     );
