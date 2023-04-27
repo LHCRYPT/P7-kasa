@@ -1,6 +1,5 @@
-
-import { Link } from "react-router-dom";
-import styles from "./Card.css";
+import "./Card.css";
+import { useNavigate } from "react-router-dom";
 
 /*une vignette avec une photo qui lira le fichier json depuis home et faire un point map pour appeler autant de fois la card*/
 function Card(data) {
