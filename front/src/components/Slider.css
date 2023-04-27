@@ -12,23 +12,15 @@
   
 
      .fg{
-      /* position: absolute;   */
-      margin-left: -12%;
-     right: 0%;
-     top: 0%;
-     bottom: 0%;
-     background: blue; 
-     width:46.68px;
-     height:79.2px;
+     position: absolute; 
+     margin-top: -100px;
+     width:30px;
+    cursor: pointer;
   }
 
   .fd{
-    /* position: absolute;   */
-   margin-left: 365%;
-   margin-right: 0%;
-   top: 0%;
-   bottom: 0%;
-   background: blue; 
-   width:46.68px;
-   height:79.2px;
+   position: absolute;   
+    right: 20px;
+   top: 50%;
+   cursor: pointer;
 }
