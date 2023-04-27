@@ -1,8 +1,8 @@
-
+import "./Collapse.css";
 import { useState } from 'react'
 import flecheHaut from "../fleche-haut.png";
 import flecheBas from "../fleche-bas.png";
-import styles from "./Collapse.css";
+
 
 
 const Collapse = (props) => {  
