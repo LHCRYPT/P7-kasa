@@ -1,7 +1,7 @@
 import "./Error.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import React, { component, useEffect, useState } from 'react';
+
 import { Link } from "react-router-dom";
 
 import Logo from "../../logo-kasa.svg";
