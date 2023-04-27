@@ -40,3 +40,19 @@ a {
   }
 }
 
+@media all and (max-width: 375px) {
+  .error {
+      margin: 0 20px 20px 20px;
+  }
+
+  .alert404 {
+      font-size: 100px;
+      font-weight: 700;
+      margin: 0 0 20px 0;
+  }
+
+  .description {
+      margin: 0 0 130px 0;
+      font-size: 18px;
+  }
+}
