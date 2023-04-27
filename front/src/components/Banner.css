@@ -16,25 +16,14 @@
    
    }
 
-  
-
-.Chez{   /* Chez vous, partout et ailleurs */
-     width: 100%; 
-    font-size:48px; 
-   font-family: 'Montserrat';
-    font-style: normal;
-    /*font-weight: bold; */
-    position: absolute; /* pour que la phrase soit positionnée au milieu de l'image
-    /* left: 24%; */
-    /*right: 25.14%;*/
-    /* top: 123%; */
-    /* bottom: 90.04%; */
-    margin-top: -85px;/* concerne les marges exterieures bas */
-    margin-left: 438px;
-    line-height: 142.6%; /*indique la hauteur minimale des lignes au sein de l'élément*/
-    display: flex;
-    align-items: flex-end;
-    color: #FFFFFF;
-
-
-    }
+   .texte-banner {
+     width: 100%;
+     padding: 0 15px;
+     position: absolute;
+     top: 35%;
+     left: 50%;
+     transform: translate3d(-50%, -50%, 0);
+     font-size: 24px;
+     color: #fff;
+     text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+   }
