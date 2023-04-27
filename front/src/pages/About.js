@@ -1,9 +1,9 @@
-
-import { Link } from "react-router-dom";
-import Logo from "../../logo-kasa.svg";
-import imageBannerBleue from "../../imageBannerBleue.jpg";
-import Footer from "../Footer";
-import styles from "./About.css";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Banner from "../components/Banner";
+import Collapse from "../components/Collapse";
+import textes from "../assets/data/about.json";
+import image from "../assets/img/banner/banner-about.jpg";
 
 
 import Collapse from "../Collapse";
