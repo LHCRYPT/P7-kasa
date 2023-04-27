@@ -1,26 +1,25 @@
 .carousel{
    height: 415px;
-      
+   position: relative;
+   
 }
-
 .carousel .photo{
+   border-radius: 25px;
    width: 100%;
    height: 100%;
-   object-fit: cover; 
-    border-radius: 25px;
- }
-  
+   object-fit: cover;
+}
+.fg {
+   position: absolute;
+  top: 50%;
+    left:20px;
+   cursor: pointer;
+}
 
-     .fg{
-     position: absolute; 
-     margin-top: -100px;
-     width:30px;
-    cursor: pointer;
-  }
-
-  .fd{
-   position: absolute;   
-    right: 20px;
+.fd {
+   
+   position: absolute;
    top: 50%;
+   right: 20px;
    cursor: pointer;
 }
