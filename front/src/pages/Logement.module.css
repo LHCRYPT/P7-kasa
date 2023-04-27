@@ -2,16 +2,17 @@
    display: flex;
    justify-content: space-between;
  }
+
  .gauche {
    width: 70%;
  }
+
  .droite {
    width: 30%;
- 
    margin-top: 40px;
  }
 
- h1,
+h1,
 h2,
 h3,
 h4 {
@@ -52,14 +53,20 @@ h4 {
  }
  
  .droite div {
-     margin-top: 10px;
+   margin-top: 10px;
    clear: right;
    float: right;
  }
+
  .droite div img {
    width: 20px;
    margin-left: 15px;
  }
+
  .container50{
      width:45%;
  }
+
+ ul {
+  list-style-type: none;
+}
