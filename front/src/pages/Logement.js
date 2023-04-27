@@ -67,7 +67,7 @@ export default function Logement() {
         <Collapse titre="Description" texte={logement.description} />
         </div>
         <div className={styles.container50}>
-        <Collapse titre="Equipements" liste={logement.equipments} />
+        <Collapse titre="Equipements" texte={items} />
         </div>
         </div>
         </section>
