@@ -1,7 +1,10 @@
+import "./Footer.css";
+import logoFooter from "../assets/logo-footer.png";
+
 import React, { component, useEffect, useState } from 'react';
 
 import Logo from "../logoFooter.png";
-import styles from './Footer.css';
+
 
 
 function Footer() {
