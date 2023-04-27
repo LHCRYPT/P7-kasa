@@ -1,24 +1,17 @@
 import "./Footer.css";
 import logoFooter from "../assets/logo-footer.png";
 
-import React, { component, useEffect, useState } from 'react';
 
-import Logo from "../logoFooter.png";
-
-
-
-function Footer() {
+export default function Footer() {
     return (
-        
-            <div className="lfooter">
-      <img className="logoFooter" src={Logo} alt="Logo Kasa" />
-      <p className="rights"> © 2020 Kasa. All rights reserved</p></div>
+      <footer>
+        <img src={logoFooter} alt="Kasa" />
+      <p> © 2020 Kasa. All rights reserved</p>
       
-    
+      </footer>
       );
     }
-    
-    export default Footer;
+   
 
 
 
