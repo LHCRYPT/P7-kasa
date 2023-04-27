@@ -1,0 +1,34 @@
+.carousel{
+   height: 415px;
+      
+}
+
+.carousel .photo{
+   width: 100%;
+   height: 100%;
+   object-fit: cover; 
+    border-radius: 25px;
+ }
+  
+
+     .fg{
+      /* position: absolute;   */
+      margin-left: -12%;
+     right: 0%;
+     top: 0%;
+     bottom: 0%;
+     background: blue; 
+     width:46.68px;
+     height:79.2px;
+  }
+
+  .fd{
+    /* position: absolute;   */
+   margin-left: 365%;
+   margin-right: 0%;
+   top: 0%;
+   bottom: 0%;
+   background: blue; 
+   width:46.68px;
+   height:79.2px;
+}
