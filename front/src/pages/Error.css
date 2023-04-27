@@ -5,4 +5,20 @@
     color: #FF6060;
 }
 
+.alert404 {
+  font-size: 175px;
+  font-weight: 700;
+  margin: 0 0 65px 0;
+}
 
+.description {
+
+  margin: 0 0 180px 0;
+  font-size: 36px;
+  font-weight: 500;
+
+}
+
+a {
+  color: #FF6060;
+}
