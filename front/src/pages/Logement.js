@@ -35,8 +35,9 @@ export default function Logement() {
           // if ternaire
           (l===-1) && navigate('/error/');
           setLogement(l);
-          console.log(l);
-         
+          //console.log(l);
+          console.log(l.equipments);
+          setItems(l.equipments.map((e,i) => <li key={i}>{e}</li>));
         },[]); 
         // []: cad useEffect est appelé qu'une seul fois
         // on ne veut que useEffect soit appeler des qu'il y a un render
