@@ -1,5 +1,4 @@
 import "./Home.css";
-
 import Header from "../components/Header";
 import Banner from "../components/Banner";
 import Card from "../components/Card";
