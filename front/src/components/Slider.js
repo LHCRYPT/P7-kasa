@@ -5,45 +5,31 @@ import flecheGauche from "../assets/icon/fleche-gauche.png";
 
 
 export default function Carousel({ title, pictures }) {
-  
-  
-    const [index, setIndex] =
-      useState(/* utilisation du crochet useState pour créer une var d’état (index), pour garder une trace de la position actuelle dans le carrousel.*/
-        0
-      ); 
+  // utilisation du crochet useState pour créer une var d’état (index),
+  // pour garder une trace de la position actuelle dans le carrousel.
+  const [index, setIndex] = useState(0); 
     
-    const length = pictures.length;
-    /* Les fonctions handlePrevious et handleNext s’occupent des mises à jour de la valeur d’index lorsque l’utilisateur clique sur le Précédent et Prochain boutons*/
-    const handlePrevious = () => {
+    // Les fonctions handlePrevious et handleNext s’occupent des mises à jour 
+    //de la valeur d’index lorsque l’utilisateur clique sur le Précédent et Prochain boutons
+    const precedent = () => {
       const newIndex = index - 1;
-      setIndex(
-        newIndex < 0 ? length - 1 : newIndex
-      ); /* si inférieur à 0, on revient à 2*/
-    };
+      /* si inférieur à 0, on revient à 2*/
+      setIndex(newIndex < 0 ? pictures.length - 1 : newIndex); 
+      };
 
-    const handleNext = () => {
+    const suivant = () => {
       const newIndex = index + 1;
-      setIndex(
-        newIndex >= length ? 0 : newIndex
-      ); /* si supérieur à 2 on revient à 0*/
+      /* si supérieur à 2 on revient à 0*/
+      setIndex(newIndex >= pictures.length ? 0 : newIndex); 
     };
 
     return (
       <>
         <div className="carousel">
           <img className="photo" src={pictures[index]} />
-          <p className= "flecheGauche" onClick={handlePrevious} > 
-          <img className="fg" src={flecheGauche } />
-          </p>
-          
-          <p className= "flecheDroite" onClick={handleNext} > 
-          <img className="fd" src={flecheDroite } />
-          </p>
-         
-          <p>{index}</p>
-        </div>
-      </>
-    );
-  };
-
-export default Carousel;
+          <img className="fg" src={flecheGauche} onClick={precedent} />
+        <img className="fd" src={flecheDroite} onClick={suivant} />
+      </div>
+    </>
+  );
+}
