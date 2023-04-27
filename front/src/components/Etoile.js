@@ -1,7 +1,6 @@
-import React, { component, useEffect, useState } from 'react'; /* importation de Hook useState depuis React. Il me permet d’utiliser un état local dans une fonction composant*/
-import etoileBlanche from "../etoileBlanche.png";
-import etoileRouge from "../etoileRouge.png";
-import styles from "./Etoile.css";
+import etoileGrise from '../assets/icon/etoile-grise.png'
+import etoileRose from '../assets/icon/etoile-rose.png'
+
 
 
 const Rating = ({ rating }) => {
