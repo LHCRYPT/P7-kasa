@@ -24,6 +24,7 @@ export default function Logement() {
       const {id} = useParams();
       const navigate = useNavigate();
       const [logement, setLogement] = useState({});
+      const [items, setItems] = useState('');
       // quand on fait une action au demarrage
       // il faut utiliser useEffect
       
