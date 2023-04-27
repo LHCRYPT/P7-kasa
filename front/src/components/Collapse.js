@@ -1,4 +1,5 @@
-import React, { component, useEffect, useState } from 'react'; /* importation de Hook useState depuis React. Il me permet d’utiliser un état local dans une fonction composant*/
+
+import { useState } from 'react'
 import flecheHaut from "../fleche-haut.png";
 import flecheBas from "../fleche-bas.png";
 import styles from "./Collapse.css";
