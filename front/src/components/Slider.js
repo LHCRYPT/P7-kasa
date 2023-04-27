@@ -1,13 +1,10 @@
-import React, { component, useEffect, useState } from "react";
-import styles from "./Carousel.css";
-import flecheHaut from "../fleche-haut.png";
-import flecheBas from "../fleche-bas.png";
-import flecheDroite from "../flecheDroite.png";
-import flecheGauche from "../flecheGauche.png";
-import logements from "../data/logements.json";
-import { useParams } from "react-router-dom";
+import React, { useState } from "react";
+import "./Slider.css";
+import flecheDroite from "../assets/icon/fleche-droite.png";
+import flecheGauche from "../assets/icon/fleche-gauche.png";
 
-function Carousel({ title, pictures }) {
+
+export default function Carousel({ title, pictures }) {
   
   
     const [index, setIndex] =
