@@ -1,17 +1,11 @@
-import React, { component, useEffect, useState } from 'react';
-import imageBanner from "../imageBanner.png"; /* est ce que c'est bon ?*/
+import "./Banner.css";
 
 
-import styles from './Banner.css';
-
-function Banner() { //mettre la bannière accueil
+export default function Banner({texte,image}) {
     return (
-    <> 
-
-<img className="imageBanner" src={imageBanner} alt="montagne surplombant la mer" />
-
-  <p className="Chez"> Chez vous, partout et ailleurs</p> 
-       </>  );
-}
-
-export default Banner;
+        <section className="banner">
+            <img className="img-banner" src={image} alt="#" />
+            <span className="texte-banner">{texte} </span>
+        </section>
+    );
+  }
