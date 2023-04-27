@@ -4,24 +4,20 @@ import logo from "../assets/logo.svg";
 /* Link remplace la balise a */
 
 
-
-
-function Header() {
+export default function Header() {
     return (
  <header className="header">
-     <img className="logoHeader" src={Logo} alt="Logo Kasa" ></img>
-  
-     
-     <nav className="headerLink">
-        <div>
-          <Link to={`/`}><h1 className="Accueil">Accueil</h1></Link>
-        </div>
-        <div>
-          <Link to={`/About`}><h1 className="APropos">A Propos</h1></Link>
-        </div>
-      </nav>
+                  
+          <Link to="/">
+          <img src={logo} className="logo" alt="kaza" />
+      </Link>
+      <nav className="navbar">
+        <NavLink to="/" className="link">Accueil</NavLink>
+        
+          <NavLink to="/about" className="link">&Agrave; propos</NavLink>
+       </nav>
     </header>
         );
     }
     
-    export default Header;
+    
