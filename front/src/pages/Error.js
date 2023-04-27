@@ -1,43 +1,23 @@
 import "./Error.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-
 import { Link } from "react-router-dom";
 
-import Logo from "../../logo-kasa.svg";
 
-
-
-
-function Error() {
-    return (
-      <> 
-       <header className="header">
-<img className="logoHeader" src={Logo} alt="Logo Kasa" ></img>
-  
-     
-  <nav className="headerLink">
-     <div>
-     <Link to={`/`}><h1 className="Accueil">Accueil</h1></Link>
-        </div>
-        <div>
-          <Link to={`/About`}><h1 className="APropos">A Propos</h1></Link>
-     </div>
-   </nav>
-    </header> 
-
-
-      <div className="erreur">
-        <h1 className="nombre">404</h1>
-        <p className="texte"> Oups ! La page que vous demandez n'existe pas. </p>
-        <Link to="/" className="retourAccueil">
-          Retourner sur la page d'accueil
-        </Link>
+export default function Error() {
+  return (
+    <>
+    <section className="home">
+      <Header />
+      <div className="error">
+        <h1 className="alert404">404</h1>
+        <h2 className="description">
+          Oups! La page que vous demandez n'existe pas
+        </h2>
+        <Link to="/">Retourner sur la page d'accueil</Link>
       </div>
-      </>   );
-  }
-  
-  export default Error;
-
-/* <Route path="*" element={<Notfound />} />
-ou return {lodging ? <div> ..... </div> : <NotFound />}*/
+    </section>
+    <Footer/>
+    </>  
+  );
+}
