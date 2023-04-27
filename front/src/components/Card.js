@@ -1,9 +1,13 @@
 import "./Card.css";
 import { useNavigate } from "react-router-dom";
 
-/*une vignette avec une photo qui lira le fichier json depuis home et faire un point map pour appeler autant de fois la card*/
-function Card(data) {
-  // console.log(data.image);
+// props : logement (envoyer depuis Home.js)
+export default function Card({ logement }) {
+  const navigate = useNavigate();
+  
+  function naviguer() {
+    navigate(`/logement/${logement.id}`);
+  }
   return (
     <div>
       <Link to={`/logement/${data.id}`}> {/*  id du logement */}
