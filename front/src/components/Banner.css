@@ -1,3 +1,11 @@
+.banner {
+     height: 110px;
+     margin: auto;
+     overflow: hidden;
+     position: relative;
+     margin-bottom: 30px;
+   }
+
 .imageBanner{
     position: absolute;
     width:1390px;
