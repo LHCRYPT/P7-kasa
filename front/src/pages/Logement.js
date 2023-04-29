@@ -42,7 +42,7 @@ export default function Logement() {
         // []: cad useEffect est appelé qu'une seul fois
         // on  veut que useEffect soit appelé pour que le code soit executé qu'une fois
       
-        // return on verifie qu'il ya une logement pour afficher l html
+        // return on verifie qu'il y a une logement pour afficher l html
         // avec un if ternaire
 
 
