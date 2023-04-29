@@ -14,7 +14,7 @@ export default function App() {
       {path:"/" ,element:<Home />},
       {path:"/about" ,element:<About />},
       {path:"/logement/:id",element:<Logement />},
-      {path:"*",element:<Error />}
+      {path:"*",element:<Error />} /* * signifie n'importe quoi */
     ]);
     //---------------------------------------------
    // on injecte le router dans le composant principal

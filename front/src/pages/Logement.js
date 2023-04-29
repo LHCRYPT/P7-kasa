@@ -33,14 +33,14 @@ export default function Logement() {
           let l = getLogement(id);
           //if (l == -1) navigate('/error/');
           // if ternaire
-          (l===-1) && navigate('/error/');
+          (l===-1) && navigate('/error/'); //si l'id n'est pas trouvé, alors la page error s'affiche
           setLogement(l);
           //console.log(l);
           console.log(l.equipments);
           setItems(l.equipments.map((e,i) => <li key={i}>{e}</li>));
         },[]); 
         // []: cad useEffect est appelé qu'une seul fois
-        // on ne veut que useEffect soit appeler des qu'il y a un render
+        // on  veut que useEffect soit appelé pour que le code soit executé qu'une fois
       
         // return on verifie qu'il ya une logement pour afficher l html
         // avec un if ternaire
